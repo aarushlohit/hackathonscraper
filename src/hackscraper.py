@@ -10,6 +10,20 @@ API_URL = (
 )
 
 
+def _event_link_from_slug(event_url):
+    if not event_url:
+        return "https://vision.hack2skill.com/hackathons-listing"
+
+    slug = str(event_url).strip().strip("/")
+    if not slug:
+        return "https://vision.hack2skill.com/hackathons-listing"
+
+    if slug.startswith("event/"):
+        slug = slug[len("event/") :]
+
+    return f"https://vision.hack2skill.com/event/{slug}"
+
+
 def _to_iso(value):
     if not value:
         return None
@@ -86,7 +100,7 @@ def scrape():
                 },
                 "logo": item.get("thumbnail") or "",
                 "status": status,
-                "link": f"https://vision.hack2skill.com/{event_url}" if event_url else "https://vision.hack2skill.com/hackathons-listing",
+                "link": _event_link_from_slug(event_url),
             }
         )
 

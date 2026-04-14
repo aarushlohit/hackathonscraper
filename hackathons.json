@@ -1,0 +1,602 @@
+[
+  {
+    "date": {
+      "end": "2026-04-16",
+      "start": "2026-04-10"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/hacksurgex",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01706353/1775798538009-Untitleddesign.webp",
+    "name": "HackSurgeX",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-15",
+      "start": "2026-04-08"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/pwc_dsu",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01484786/1775729081160-PWxcommunity.square.webp",
+    "name": "PromptWars X Dayananda Sagar University",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-14",
+      "start": "2026-03-31"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/eliteher",
+    "location": "virtual",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00255447/1775361189387-CopyofByEliteHerCommunity4.webp",
+    "name": "Elite Her Hackathon",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-11-30",
+      "start": "2026-04-01"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/pwvirtual1",
+    "location": "virtual",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000009/1775555602339-PromptWarsVirtualHomepage.webp",
+    "name": "Virtual: PromptWars",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-07",
+      "start": "2026-04-01"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/vibehack2026",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01684088/1774980887694-VibeHacklogo.webp",
+    "name": "VibeHack",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-05-15",
+      "start": "2026-03-31"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/apac-genaiacademy-c2",
+    "location": "hybrid",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01338243/1774951494799-HomepageAcademyAPAC.webp",
+    "name": "Gen AI Academy APAC Edition",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-15",
+      "start": "2026-03-28"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/devsummit",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01604445/1774692163114-Untitleddesign2.webp",
+    "name": "DevSummit2026",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-09",
+      "start": "2026-03-21"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/ainex-hack",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00223664/1774461986289-2ndmain3.webp",
+    "name": "AINEX \u2013 24 Hours AI Tech Challenge",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-04-22",
+      "start": "2026-03-23"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/iconclave-nexus2",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01528751/1774553463504-desktopnexus.jpg.webp",
+    "name": "Nexus2.0",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-03-25"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/mongodb-essentials",
+    "location": "virtual",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000008/1774606378436-H2SWebinarBanner.webp",
+    "name": "MongoDB Essentials",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-09",
+      "start": "2026-03-23"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/katha-hack",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00223664/1774071499094-2ndmain3.webp",
+    "name": "KATHA Hackathon",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-04-09",
+      "start": "2026-03-21"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/hack-algo",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00223664/1774070813459-2ndmain3.webp",
+    "name": "HACK.ALGO",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-04-25",
+      "start": "2026-03-25"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/brinhack",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01201680/1773824578666-brinhack.webp",
+    "name": "BRINHACK 1.0",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-10",
+      "start": "2026-03-15"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/technotarang",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01528158/1773778221151-WhatsAppImage20260318at1.02.17AM1.webp",
+    "name": "TechnoTarang",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-04-25",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdaysblr",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773732263654-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Bengaluru",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-22",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdayskkt",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773732185855-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Kolkata",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdayshyd",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773732135787-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Hyderabad",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-15",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdayschn",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773731996410-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Chennai",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-12",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdaysmumbai",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773731900505-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Mumbai",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-04-08",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdaysbhp",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773731835433-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Bhopal",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-04-05",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdayspune",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773731741977-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Pune",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-04-01",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdaysjaipur",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773731591642-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Jaipur",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-03-29",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdaysahmedabad",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773731086709-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Ahmedabad",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-04-29",
+      "start": "2026-03-17"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdays",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773723780463-AMDhomepage.webp",
+    "name": "AMD Slingshot - Campus Days | Delhi",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-03-14",
+      "start": "2026-03-12"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/codecraftinnovacion",
+    "location": "hybrid",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00808357/1773346089532-download.webp",
+    "name": "360CodeCraft",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-04-15",
+      "start": "2026-03-05"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/solution-challenge-2026",
+    "location": "virtual",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000009/1773140913846-Homepagecreative1.webp",
+    "name": "Solution Challenge 2026 - Build with AI",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-03-24",
+      "start": "2026-03-06"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/nasscom-ai",
+    "location": "hybrid",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000008/1773383907010-image1.webp",
+    "name": "AI-Code Sarathi",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-11-30",
+      "start": "2026-02-15"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/bootcamps-2026",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000009/1773139511922-image336.webp",
+    "name": "Build with AI: Bootcamps",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-10-10",
+      "start": "2026-02-15"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/promptwarsdelhincr",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000009/1773748967253-HomepagePWIP.webp",
+    "name": "Build with AI: PromptWars",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-03-01",
+      "start": "2026-01-31"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/sugarnxthack",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000008/1770125052657-websitehomepage.webp",
+    "name": "SugarNxt Hackathon",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-02-10",
+      "start": "2026-02-05"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/promptwars3",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000009/1773140651399-MasterCreative.webp",
+    "name": "PromptWars: Build with AI",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-28",
+      "start": "2026-01-25"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-mgv6yc",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "GDGoC 2025 Hacks Gec bvn",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-31",
+      "start": "2025-12-05"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-duhacks5",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "DUHacks5 - GDGoC 2025 Hacks",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-25",
+      "start": "2025-12-05"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-techsprint-gdgochack",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "Techsprint-GDGOCHACKS!!",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-02-18",
+      "start": "2026-01-21"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/gamejam-iiitbhagalpur",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00244860/1769062770066-vectorrevamp.webp",
+    "name": "Game Jam powered by GDAI GameConnect | Enyugma'26- IIIT Bhagalpur",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-03-31",
+      "start": "2026-01-27"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/apac-genaiacademy",
+    "location": "hybrid",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000009/1773139466462-image335.webp",
+    "name": "Gen AI Academy APAC Edition",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-28",
+      "start": "2026-01-22"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/promptwars2",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000009/1773140702311-MasterCreative.webp",
+    "name": "PromptWars: Build with AI",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-28",
+      "start": "2025-12-05"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-build-a-thon-necn",
+    "location": "in_person",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00314389/1768883214248-202601171016390000.webp",
+    "name": "BUILD-A-THON 2K26 Concept to Create",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-28",
+      "start": "2026-01-17"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-gdg_techsprint_mitaoe",
+    "location": "hybrid",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "TechSprint",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-29",
+      "start": "2026-01-22"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-gdgocshardahackathon",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "TechSprint : Hackathon",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2025-12-20",
+      "start": "2025-12-05"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-avantikauniversitytechsprint",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "GDGoC 2026 Techsprint Avantika University",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-29",
+      "start": "2025-12-05"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-gcoeara-techsprint",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "TechSprint by Google Developer Groups on Campus",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-20",
+      "start": "2026-01-16"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-techsprintnitj",
+    "location": "virtual",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01117974/1768576219285-Frame481528.webp",
+    "name": "TechSprint - NITJ",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-02-01",
+      "start": "2025-12-05"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-buildfest25gdgocwitsolapur1254",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "BuildFest WIT Solapur",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-02-01",
+      "start": "2025-12-05"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-googletechsprintauc2k25",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "Google Techsprint 2K26",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-23",
+      "start": "2026-01-15"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-the-winter-sprint",
+    "location": "virtual",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00002381/1768467792532-thewintersprint.webp",
+    "name": "The Winter Sprint - GDGoC 2025 Hacks",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-22",
+      "start": "2026-01-16"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-techsprint_soe_cusat",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "TechSprint",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-15",
+      "start": "2025-12-05"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-techsprint-gdg-pvgcoessdiom",
+    "location": "hybrid",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "<Title> - GDGoC 2025 Hacks",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-24",
+      "start": "2026-01-11"
+    },
+    "desc": "Individual",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-beyondthehype",
+    "location": "virtual",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "Beyond The Hype",
+    "status": "closed"
+  },
+  {
+    "date": {
+      "end": "2026-01-26",
+      "start": "2025-12-05"
+    },
+    "desc": "Team",
+    "link": "https://vision.hack2skill.com/event/gdgoc-25-gdgmgmcet-techrush25-26",
+    "location": "hybrid",
+    "logo": "https://h2svision.github.io/publicAssets/GDGoC_Logo.png",
+    "name": "TechRush-Innovate Beyond Boundaries",
+    "status": "closed"
+  }
+]
