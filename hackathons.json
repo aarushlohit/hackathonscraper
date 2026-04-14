@@ -1652,110 +1652,6 @@
   },
   {
     "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "HackerEarth",
-    "link": "https://www.hackerearth.com/challenges/hackathon/the-tiny-fish-hackathon-2026/",
-    "location": "virtual",
-    "logo": "https://media.hackerearth.com/media/hackathon/the-tiny-fish-hackathon-2026/images/029eeb4d11-add_a_subheading_1_1.png",
-    "name": "The Tiny Fish Hackathon 2026",
-    "source": "hackerearth",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "HackerEarth",
-    "link": "https://www.hackerearth.com/challenges/hackathon/move-fwd-2026-5/",
-    "location": "virtual",
-    "logo": "https://media.hackerearth.com/media/hackathon/move-fwd-2026-5/images/dba75b48fd-hackathon-2025.png",
-    "name": "Move Fwd 2026 5",
-    "source": "hackerearth",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "HackerEarth",
-    "link": "https://www.hackerearth.com/challenges/hackathon/zerve-ai-2026-hackathon/",
-    "location": "virtual",
-    "logo": "",
-    "name": "Zerve Ai 2026 Hackathon",
-    "source": "hackerearth",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "HackerEarth",
-    "link": "https://www.hackerearth.com/challenges/hackathon/elastic-blogathon-2026/",
-    "location": "virtual",
-    "logo": "",
-    "name": "Elastic Blogathon 2026",
-    "source": "hackerearth",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "HackerEarth",
-    "link": "https://www.hackerearth.com/challenges/hackathon/shikshalokam-2/",
-    "location": "in_person",
-    "logo": "https://media.hackerearth.com/media/hackathon/shikshalokam-2/images/9b298018e2-whatsapp_image_2025-12-24_at_17.47.25.jpeg",
-    "name": "Shikshalokam 2",
-    "source": "hackerearth",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "HackerEarth",
-    "link": "https://www.hackerearth.com/challenges/hackathon/tesco-retail-media-innovaition-jam/",
-    "location": "virtual",
-    "logo": "https://media.hackerearth.com/media/hackathon/tesco-retail-media-innovaition-jam/images/c5185419ba-shadowfax_hack-o-thon_-.jpg",
-    "name": "Tesco Retail Media Innovaition Jam",
-    "source": "hackerearth",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "HackerEarth",
-    "link": "https://www.hackerearth.com/challenges/hackathon/cyborg/",
-    "location": "virtual",
-    "logo": "https://media.hackerearth.com/media/hackathon/cyborg/images/4c698db1b0-cyborg.jpg",
-    "name": "Cyborg",
-    "source": "hackerearth",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "HackerEarth",
-    "link": "https://www.hackerearth.com/challenges/hackathon/alkimi-hiring-challenge-2025-2/",
-    "location": "virtual",
-    "logo": "https://media.hackerearth.com/media/hackathon/alkimi-hiring-challenge-2025-2/images/a942c209fd-header_banner_1350x300_2.png",
-    "name": "Alkimi Hiring Challenge 2025 2",
-    "source": "hackerearth",
-    "status": "open"
-  },
-  {
-    "date": {
       "end": "2026-06-10",
       "start": "2026-03-09"
     },
@@ -2038,6 +1934,487 @@
     "logo": "",
     "name": "Fourmemeaisprint",
     "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-16",
+      "start": "2026-04-10"
+    },
+    "desc": "MLH",
+    "link": "https://events.mlh.io/events/13558-global-hack-week-api",
+    "location": "virtual",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019bb2af-79c9-ed8a-8294-1a9a7a96ed16/global-hack-week-api_c815d30b3542_medium.jpg",
+    "name": "Global Hack Week: API",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-18",
+      "start": "2026-04-17"
+    },
+    "desc": "MLH",
+    "link": "https://hackathon.fif-uaq.mx/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b82-8a30-866f-468b-3cfc8bbc1e5a/hackathon-troyano-2026_83b8a0f69450_medium.png",
+    "name": "Hackathon Troyano 2026",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-17"
+    },
+    "desc": "MLH",
+    "link": "https://events.mlh.io/events/13503-ai-hackfest",
+    "location": "virtual",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019b955e-fc3f-07c5-a03f-b69ada273832/ai-hackfest-9a_e2f933932ec5_medium.jpg",
+    "name": "AI Hackfest",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-18",
+      "start": "2026-04-17"
+    },
+    "desc": "MLH",
+    "link": "https://hackmesa.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019d20cf-c5ee-6222-eca8-091173565c6d/hackmesa-2-0_867cfb3b5881_medium.png",
+    "name": "HACKMESA 2.0",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-18",
+      "start": "2026-04-17"
+    },
+    "desc": "MLH",
+    "link": "https://www.marihacks.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b8c-e7d0-e4c9-181b-b21b6bda0786/marihacks-c5_e2157ec3a1ae_medium.png",
+    "name": "MariHacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-17"
+    },
+    "desc": "MLH",
+    "link": "https://www.starkhacks.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c4cfa-fd55-b6c9-a537-0365b7a973e1/starkhacks_7413fbafc6b5_medium.png",
+    "name": "StarkHacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-17"
+    },
+    "desc": "MLH",
+    "link": "https://www.hackprinceton.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b86-fab6-3e64-3ae8-3f9036c918c5/hackprinceton-spring-2026_c5a8a1f7bf34_medium.png",
+    "name": "HackPrinceton Spring 2026",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-17"
+    },
+    "desc": "MLH",
+    "link": "https://the-hackku.github.io/hackku26_website/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c9beb-97dd-b30b-904c-510a8d381eb5/hackku-e5_0041601cdec5_medium.png",
+    "name": "HackKU",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-18"
+    },
+    "desc": "MLH",
+    "link": "https://www.citrushack.com",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c96ee-4436-a0b6-ce33-d4b71d3d5021/citrus-hack-02_9d6a8aa2cb1b_medium.png",
+    "name": "Citrus Hack",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-18"
+    },
+    "desc": "MLH",
+    "link": "https://datahacks.ds3ucsd.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c77ef-6f24-d299-d36c-dae6d0ab7c91/datahacks_53a1a4d8aeba_medium.png",
+    "name": "DataHacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-18"
+    },
+    "desc": "MLH",
+    "link": "https://hackkosice.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c4963-a43f-53e5-7823-0ef36c6e6b78/hack-kosice-22_84dcf97a1ec3_medium.png",
+    "name": "Hack Kosice",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-18"
+    },
+    "desc": "MLH",
+    "link": "https://georgehacks.org/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/logos/events/019c9b6a-61ef-a224-231b-00f5ca59912a/george-hacks-health-hackathon-2026_483fd1848344_small.png",
+    "name": "George Hacks Health Hackathon 2026",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-18"
+    },
+    "desc": "MLH",
+    "link": "https://www.hookemhacks.com",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019cb59e-693d-ffdc-65bb-6cb5f80cbb71/hook-em-hacks_06f458a5dc42_medium.png",
+    "name": "Hook 'Em Hacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-18"
+    },
+    "desc": "MLH",
+    "link": "https://dragonhack.si/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019caea3-79c4-44bf-4b71-cacef2837b71/dragonhack-2026_435f8e3138ff_medium.jpeg",
+    "name": "Dragonhack 2026",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-18"
+    },
+    "desc": "MLH",
+    "link": "https://www.cs.oswego.edu/lakerhacks/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019caedd-6e6b-9958-beb3-513047cabb75/lakerhacks_a417a9bcf40e_medium.jpg",
+    "name": "LakerHacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-18"
+    },
+    "desc": "MLH",
+    "link": "https://victorhacks.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c9fc3-dded-d1c7-cd90-224cabb9f03a/victor-hacks-11_4d6027ca9fb9.svg",
+    "name": "Victor Hacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-19",
+      "start": "2026-04-18"
+    },
+    "desc": "MLH",
+    "link": "https://fullyhacks.acmcsuf.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b87-b92a-d5b0-6d9d-3e4efcf0d890/fullyhacks_dd9b458c7925_medium.png",
+    "name": "FullyHacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-26",
+      "start": "2026-04-24"
+    },
+    "desc": "MLH",
+    "link": "https://uwbhacks.com",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b86-280e-32fd-1abc-7ca4c8ad2461/uwb-hacks-26-the-future_17065d54e531_medium.png",
+    "name": "UWB Hacks 26: The Future!",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-26",
+      "start": "2026-04-24"
+    },
+    "desc": "MLH",
+    "link": "https://lahacks.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019ab732-c299-f099-0da7-c6a2c7ca2979/la-hacks-b3_c39625b3c2cb_medium.png",
+    "name": "LA Hacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-26",
+      "start": "2026-04-24"
+    },
+    "desc": "MLH",
+    "link": "https://hackupc.com",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c0f74-c95e-c774-8714-85018b12d414/hackupc-31_90d2fdbcbdc7_medium.png",
+    "name": "HackUPC",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-26",
+      "start": "2026-04-24"
+    },
+    "desc": "MLH",
+    "link": "https://hack.caltech.edu",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019be0eb-d05a-a9f3-9989-0fa0b6b403a1/hacktech-7d_732a612ff512_medium.png",
+    "name": "Hacktech",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-26",
+      "start": "2026-04-24"
+    },
+    "desc": "MLH",
+    "link": "https://www.bearhacks.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b97-fed5-7148-03ea-4b58e06a0449/bearhacks-2026_9b68406d9997_medium.png",
+    "name": "BearHacks 2026",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-26",
+      "start": "2026-04-25"
+    },
+    "desc": "MLH",
+    "link": "https://www.broncohacks.org/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b94-a205-61bd-61cd-af21e813fd80/broncohacks-2026_b5dd4627bfc6_medium.png",
+    "name": "BroncoHacks 2026",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-26",
+      "start": "2026-04-25"
+    },
+    "desc": "MLH",
+    "link": "https://hack.arizona.edu/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019ca12e-9b44-a623-bd5f-fb283da0b5fb/hack-arizona-b3_1ce49cd65eaa_medium.jpeg",
+    "name": "Hack Arizona",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-26",
+      "start": "2026-04-25"
+    },
+    "desc": "MLH",
+    "link": "https://www.keanuhackthis.com/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c715e-f7dc-3084-aa53-d3595c4ac0a5/keanuhackthis_ff3e17fc9b2f_medium.png",
+    "name": "KeanUHackThis",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-26",
+      "start": "2026-04-25"
+    },
+    "desc": "MLH",
+    "link": "https://www.hackabull.com",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c1ee3-3836-2846-1032-2def66fbad63/hackabull-vii_7eb764940a8b_medium.png",
+    "name": "Hackabull VII",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-04-30",
+      "start": "2026-04-28"
+    },
+    "desc": "MLH",
+    "link": "https://conhacks.io",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019ce838-8a52-09d4-141f-97eea359503c/conhacks-2026-a1_7f82eb69f6b5_medium.png",
+    "name": "ConHacks 2026",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-14",
+      "start": "2026-05-08"
+    },
+    "desc": "MLH",
+    "link": "https://organize.mlh.io/events/13816-global-hack-week-genai",
+    "location": "virtual",
+    "logo": "",
+    "name": "Global Hack Week: GenAI",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-05-08"
+    },
+    "desc": "MLH",
+    "link": "https://nmithacks.com",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019d0241-1b0e-b9d0-dd18-f5e70fd82f59/nmit-hacks-99_818238d73996_medium.png",
+    "name": "NMIT Hacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-05-09"
+    },
+    "desc": "MLH",
+    "link": "https://hackdavis.io/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019cbf0c-afa1-c29a-7aeb-3d6b32caf9c9/hackdavis-2026-hackathon_1199daa38b8e_medium.png",
+    "name": "HackDavis 2026 Hackathon",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-05-09"
+    },
+    "desc": "MLH",
+    "link": "https://www.interhackbcn.com",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019d453b-39a2-3300-54af-668ce96f38a1/interhack-bcn_90a45a17871e_medium.png",
+    "name": "INTERHACK BCN",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-05-09"
+    },
+    "desc": "MLH",
+    "link": "https://masseyhacks.ca",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019ce801-4e63-8038-f04e-40b894cb9d96/masseyhacks-c5_dc0352a410e0_medium.png",
+    "name": "MasseyHacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-17",
+      "start": "2026-05-15"
+    },
+    "desc": "MLH",
+    "link": "https://events.mlh.io",
+    "location": "virtual",
+    "logo": "",
+    "name": "Midnight Hackathon",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-17",
+      "start": "2026-05-16"
+    },
+    "desc": "MLH",
+    "link": "https://www.designverseucr.org/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/logos/events/019d6d42-43e1-084d-719f-a82d76d05e3e/designverse_bf90866af3bd_small.png",
+    "name": "DesignVerse",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-23",
+      "start": "2026-05-22"
+    },
+    "desc": "MLH",
+    "link": "https://hackhcc.org/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c2ada-db7c-5c90-932d-cffd4d5b2322/hackhcc_832ded26fea0_medium.png",
+    "name": "HackHCC",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-14",
+      "start": "2026-06-12"
+    },
+    "desc": "MLH",
+    "link": "https://jamhacks.ca",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019cfd94-9ee5-01a0-405f-860fdd615be4/jamhacks-10_dd664d5752cb_medium.png",
+    "name": "JAMHacks 10",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-14",
+      "start": "2026-06-13"
+    },
+    "desc": "MLH",
+    "link": "https://s3.hackprix.tech/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019d2aac-b0a8-c5b0-e511-c98596bd4bad/hackprix-season-3_22b1f4cc1ec8_medium.png",
+    "name": "HackPrix Season 3",
+    "source": "mlh",
     "status": "open"
   }
 ]

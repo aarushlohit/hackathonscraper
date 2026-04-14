@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+import html
 import json
 import re
 from datetime import datetime, timezone
+from urllib.parse import urlsplit, urlunsplit
 
 import requests
 
@@ -15,6 +17,7 @@ DEVFOLIO_LISTING_URL = "https://devfolio.co/hackathons"
 HACKEREARTH_LISTING_URL = "https://www.hackerearth.com/challenges/hackathon/"
 DORAHACKS_LISTING_MIRROR_URL = "https://r.jina.ai/http://dorahacks.io/hackathon"
 DORAHACKS_DETAIL_MIRROR_PREFIX = "https://r.jina.ai/http://dorahacks.io/hackathon/"
+MLH_EVENTS_URL = "https://www.mlh.com/seasons/2026/events"
 
 
 def _event_link_from_slug(event_url):
@@ -163,6 +166,17 @@ def _extract_title_from_html(html):
     if not match:
         return None
     return re.sub(r"\s+", " ", match.group(1)).strip()
+
+
+def _clean_event_url(raw_url):
+    if not raw_url:
+        return ""
+
+    decoded = html.unescape(str(raw_url).strip())
+    parsed = urlsplit(decoded)
+    if not parsed.scheme or not parsed.netloc:
+        return decoded
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, "", ""))
 
 
 def _extract_devfolio_payload_from_html(html):
@@ -419,7 +433,12 @@ def _scrape_hackerearth():
     if not listing_html:
         return []
 
-    raw_links = re.findall(r'https://www\.hackerearth\.com/challenges/hackathon/[^"\'\s<>]+', listing_html)
+    # HackerEarth page mixes live and previous items; keep only links before the
+    # "PREVIOUS CHALLENGES" heading to avoid past hackathons.
+    previous_marker = re.search(r"PREVIOUS\s+CHALLENGES", listing_html, re.IGNORECASE)
+    live_section_html = listing_html[: previous_marker.start()] if previous_marker else listing_html
+
+    raw_links = re.findall(r'https://www\.hackerearth\.com/challenges/hackathon/[^"\'\s<>]+', live_section_html)
     links = []
     for link in raw_links:
         cleaned = link.strip()
@@ -541,6 +560,72 @@ def _scrape_dorahacks():
     return hackathons
 
 
+def _scrape_mlh():
+    listing_html = _fetch_text(MLH_EVENTS_URL)
+    if not listing_html:
+        return []
+
+    upcoming_match = re.search(r"<h2[^>]*>\s*Upcoming\s+Events\s*</h2>", listing_html, re.IGNORECASE)
+    past_match = re.search(r"<h2[^>]*>\s*Past\s+Events\s*</h2>", listing_html, re.IGNORECASE)
+
+    start_idx = upcoming_match.start() if upcoming_match else 0
+    end_idx = past_match.start() if past_match and past_match.start() > start_idx else len(listing_html)
+    upcoming_html = listing_html[start_idx:end_idx]
+
+    cards = re.findall(
+        r'<a[^>]+itemType="https://schema\.org/Event"[^>]*>.*?</a>',
+        upcoming_html,
+        re.IGNORECASE | re.DOTALL,
+    )
+
+    hackathons = []
+    for card in cards:
+        href_match = re.search(r'<a[^>]+href="([^"]+)"', card, re.IGNORECASE)
+        meta_url_match = re.search(r'<meta[^>]+itemProp="url"[^>]+content="([^"]+)"', card, re.IGNORECASE)
+        start_match = re.search(r'<meta[^>]+itemProp="startDate"[^>]+content="([^"]+)"', card, re.IGNORECASE)
+        end_match = re.search(r'<meta[^>]+itemProp="endDate"[^>]+content="([^"]+)"', card, re.IGNORECASE)
+        attendance_match = re.search(
+            r'<meta[^>]+itemProp="eventAttendanceMode"[^>]+content="([^"]+)"',
+            card,
+            re.IGNORECASE,
+        )
+
+        title_match = re.search(r"<h4[^>]*>(.*?)</h4>", card, re.IGNORECASE | re.DOTALL)
+        title = ""
+        if title_match:
+            title = re.sub(r"<[^>]+>", " ", title_match.group(1))
+            title = html.unescape(re.sub(r"\s+", " ", title)).strip()
+        if not title:
+            continue
+
+        logo_match = re.search(r'<img[^>]+src="([^"]+)"', card, re.IGNORECASE)
+        logo = html.unescape(logo_match.group(1)).strip() if logo_match else ""
+
+        start_raw = start_match.group(1).strip() if start_match else None
+        end_raw = end_match.group(1).strip() if end_match else None
+        attendance_mode = attendance_match.group(1).strip().lower() if attendance_match else ""
+
+        link = _clean_event_url(meta_url_match.group(1) if meta_url_match else (href_match.group(1) if href_match else ""))
+
+        hackathons.append(
+            {
+                "name": title,
+                "location": "virtual" if "onlineeventattendancemode" in attendance_mode else "in_person",
+                "desc": "MLH",
+                "date": {
+                    "start": _to_iso(start_raw),
+                    "end": _to_iso(end_raw),
+                },
+                "logo": logo,
+                "status": _status_from_dates(start_raw, end_raw),
+                "link": link or MLH_EVENTS_URL,
+                "source": "mlh",
+            }
+        )
+
+    return hackathons
+
+
 def _dedupe(hackathons):
     deduped = []
     seen = set()
@@ -589,6 +674,7 @@ def scrape():
     combined.extend(_safe_collect(_scrape_devfolio))
     combined.extend(_safe_collect(_scrape_hackerearth))
     combined.extend(_safe_collect(_scrape_dorahacks))
+    combined.extend(_safe_collect(_scrape_mlh))
 
     filtered = [item for item in _dedupe(combined) if _is_not_expired(item)]
     return json.dumps(filtered, sort_keys=True, indent=2)
