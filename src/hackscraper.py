@@ -11,6 +11,10 @@ HACK2SKILL_API_URL = (
 )
 DEVPOST_API_URL = "https://devpost.com/api/hackathons"
 UNSTOP_API_URL = "https://unstop.com/api/public/opportunity/search-result"
+DEVFOLIO_LISTING_URL = "https://devfolio.co/hackathons"
+HACKEREARTH_LISTING_URL = "https://www.hackerearth.com/challenges/hackathon/"
+DORAHACKS_LISTING_MIRROR_URL = "https://r.jina.ai/http://dorahacks.io/hackathon"
+DORAHACKS_DETAIL_MIRROR_PREFIX = "https://r.jina.ai/http://dorahacks.io/hackathon/"
 
 
 def _event_link_from_slug(event_url):
@@ -31,7 +35,10 @@ def _normalize_datetime(raw_value):
     if not raw_value:
         return None
     try:
-        return datetime.fromisoformat(str(raw_value).replace("Z", "+00:00"))
+        parsed = datetime.fromisoformat(str(raw_value).replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed
     except ValueError:
         return None
 
@@ -112,6 +119,71 @@ def _fetch_json(url, params=None):
         return response.json()
     except Exception as exc:
         return {"error": str(exc), "data": []}
+
+
+def _fetch_text(url, params=None):
+    try:
+        response = requests.get(
+            url,
+            params=params,
+            timeout=15,
+            headers={
+                "User-Agent": "hackathonscraper/1.0",
+                "Accept": "text/html,text/plain,*/*",
+            },
+        )
+        response.raise_for_status()
+        return response.text
+    except Exception:
+        return ""
+
+
+def _safe_iso_from_yyyy_mm_dd(raw_date):
+    if not raw_date:
+        return None
+    try:
+        return datetime.strptime(str(raw_date), "%Y-%m-%d").date().isoformat()
+    except ValueError:
+        return None
+
+
+def _safe_iso_from_yyyy_slash_mm_slash_dd(raw_date):
+    if not raw_date:
+        return None
+    try:
+        return datetime.strptime(str(raw_date), "%Y/%m/%d").date().isoformat()
+    except ValueError:
+        return None
+
+
+def _extract_title_from_html(html):
+    if not html:
+        return None
+    match = re.search(r"<title>(.*?)</title>", html, re.IGNORECASE | re.DOTALL)
+    if not match:
+        return None
+    return re.sub(r"\s+", " ", match.group(1)).strip()
+
+
+def _extract_devfolio_payload_from_html(html):
+    if not html:
+        return {}
+    match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.DOTALL)
+    if not match:
+        return {}
+    try:
+        data = json.loads(match.group(1))
+    except json.JSONDecodeError:
+        return {}
+
+    queries = (
+        ((data.get("props") or {}).get("pageProps") or {}).get("dehydratedState") or {}
+    ).get("queries") or []
+    if not queries:
+        return {}
+
+    state = (queries[0].get("state") or {}).get("data")
+    return state if isinstance(state, dict) else {}
 
 
 def _scrape_hack2skill():
@@ -282,6 +354,193 @@ def _scrape_unstop():
     return hackathons
 
 
+def _scrape_devfolio():
+    html = _fetch_text(DEVFOLIO_LISTING_URL)
+    payload = _extract_devfolio_payload_from_html(html)
+    if not payload:
+        return []
+
+    sections = []
+    for section_name in ("open_hackathons", "upcoming_hackathons", "featured_hackathons"):
+        section_items = payload.get(section_name)
+        if isinstance(section_items, list):
+            sections.extend(section_items)
+
+    hackathons = []
+    for item in sections:
+        if not isinstance(item, dict):
+            continue
+
+        title = item.get("name")
+        slug = item.get("slug")
+        if not title or not slug:
+            continue
+
+        start_raw = item.get("starts_at")
+        end_raw = item.get("ends_at")
+        settings = item.get("settings") if isinstance(item.get("settings"), dict) else {}
+
+        logo = (
+            settings.get("featured_cover_img_v2")
+            or settings.get("featured_cover_img")
+            or ""
+        )
+
+        theme_names = []
+        for theme_item in item.get("themes") or []:
+            if not isinstance(theme_item, dict):
+                continue
+            theme = theme_item.get("theme") if isinstance(theme_item.get("theme"), dict) else {}
+            name = theme.get("name")
+            if name:
+                theme_names.append(name)
+
+        hackathons.append(
+            {
+                "name": title,
+                "location": "virtual" if bool(item.get("is_online")) else "in_person",
+                "desc": ", ".join(theme_names) if theme_names else "Devfolio",
+                "date": {
+                    "start": _to_iso(start_raw),
+                    "end": _to_iso(end_raw),
+                },
+                "logo": logo,
+                "status": _status_from_dates(start_raw, end_raw),
+                "link": f"https://devfolio.co/hackathons/{slug}",
+                "source": "devfolio",
+            }
+        )
+
+    return hackathons
+
+
+def _scrape_hackerearth():
+    listing_html = _fetch_text(HACKEREARTH_LISTING_URL)
+    if not listing_html:
+        return []
+
+    raw_links = re.findall(r'https://www\.hackerearth\.com/challenges/hackathon/[^"\'\s<>]+', listing_html)
+    links = []
+    for link in raw_links:
+        cleaned = link.strip()
+        if cleaned.endswith("/challenges/hackathon/"):
+            continue
+        if "update=" in cleaned:
+            continue
+        if cleaned not in links:
+            links.append(cleaned)
+
+    hackathons = []
+    for link in links[:30]:
+        base_name = re.sub(r"[-_/]+", " ", link.rstrip("/").split("/")[-1]).strip().title()
+        detail_html = _fetch_text(link)
+        if detail_html:
+            title = _extract_title_from_html(detail_html)
+            title = re.sub(r"\s*\|\s*HackerEarth.*$", "", title, flags=re.IGNORECASE) if title else base_name
+
+            # Detail pages expose date tokens in ISO format; use min/max as best effort.
+            iso_dates = sorted(set(re.findall(r"\b20\d{2}-\d{2}-\d{2}\b", detail_html)))
+            start_iso = _safe_iso_from_yyyy_mm_dd(iso_dates[0]) if iso_dates else None
+            end_iso = _safe_iso_from_yyyy_mm_dd(iso_dates[-1]) if iso_dates else None
+
+            image_match = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', detail_html, re.IGNORECASE)
+            logo = image_match.group(1).strip() if image_match else ""
+
+            lower_html = detail_html.lower()
+            location = "in_person" if any(token in lower_html for token in ["physical hackathon", "in-person", "onsite"]) else "virtual"
+            status = _status_from_dates(start_iso, end_iso) if end_iso else "open"
+        else:
+            title = base_name
+            start_iso = None
+            end_iso = None
+            logo = ""
+            location = "virtual"
+            status = "open"
+
+        hackathons.append(
+            {
+                "name": title,
+                "location": location,
+                "desc": "HackerEarth",
+                "date": {
+                    "start": start_iso,
+                    "end": end_iso,
+                },
+                "logo": logo,
+                "status": status,
+                "link": link,
+                "source": "hackerearth",
+            }
+        )
+
+    return hackathons
+
+
+def _scrape_dorahacks():
+    listing_text = _fetch_text(DORAHACKS_LISTING_MIRROR_URL)
+    if not listing_text:
+        return []
+
+    slugs = []
+    for slug in re.findall(r'https?://dorahacks\.io/hackathon/([a-zA-Z0-9-]+)', listing_text):
+        if slug == "initiate":
+            continue
+        if slug not in slugs:
+            slugs.append(slug)
+
+    hackathons = []
+    for slug in slugs[:25]:
+        # Add a listing-level fallback record first; detail page will enrich it if available.
+        item = {
+            "name": re.sub(r"[-_]+", " ", slug).strip().title(),
+            "location": "virtual",
+            "desc": "DoraHacks",
+            "date": {
+                "start": None,
+                "end": None,
+            },
+            "logo": "",
+            "status": "open",
+            "link": f"https://dorahacks.io/hackathon/{slug}",
+            "source": "dorahacks",
+        }
+
+        detail_text = _fetch_text(f"{DORAHACKS_DETAIL_MIRROR_PREFIX}{slug}")
+        if detail_text:
+            title_match = re.search(r"Title:\s*(.*?)\s*\|\s*Hackathon\s*\|\s*DoraHacks", detail_text, re.IGNORECASE)
+            title = title_match.group(1).strip() if title_match else None
+            if title:
+                item["name"] = title
+
+            start_match = re.search(r"Submission\s+(\d{4}/\d{2}/\d{2})", detail_text, re.IGNORECASE)
+            end_match = re.search(r"Deadline\s+(\d{4}/\d{2}/\d{2})", detail_text, re.IGNORECASE)
+            start_iso = _safe_iso_from_yyyy_slash_mm_slash_dd(start_match.group(1)) if start_match else None
+            end_iso = _safe_iso_from_yyyy_slash_mm_slash_dd(end_match.group(1)) if end_match else None
+            item["date"] = {
+                "start": start_iso,
+                "end": end_iso,
+            }
+
+            if re.search(r"\bEnded\b", detail_text, re.IGNORECASE):
+                item["status"] = "closed"
+            elif end_iso:
+                item["status"] = _status_from_dates(start_iso, end_iso)
+
+            item["location"] = "virtual" if re.search(r"\bVirtual\b", detail_text, re.IGNORECASE) else "in_person"
+
+            logo_match = re.search(r"(https://cdn\.dorahacks\.io/static/files/[^\s)]+)", detail_text)
+            if logo_match:
+                item["logo"] = logo_match.group(1).strip()
+
+            prize_match = re.search(r"Prize pool\s+([^\n]+)", detail_text, re.IGNORECASE)
+            if prize_match:
+                item["desc"] = prize_match.group(1).strip()
+
+        hackathons.append(item)
+
+    return hackathons
+
+
 def _dedupe(hackathons):
     deduped = []
     seen = set()
@@ -316,10 +575,20 @@ def _is_not_expired(item):
 
 
 def scrape():
+    def _safe_collect(source_callable):
+        try:
+            items = source_callable()
+            return items if isinstance(items, list) else []
+        except Exception:
+            return []
+
     combined = []
-    combined.extend(_scrape_hack2skill())
-    combined.extend(_scrape_devpost())
-    combined.extend(_scrape_unstop())
+    combined.extend(_safe_collect(_scrape_hack2skill))
+    combined.extend(_safe_collect(_scrape_devpost))
+    combined.extend(_safe_collect(_scrape_unstop))
+    combined.extend(_safe_collect(_scrape_devfolio))
+    combined.extend(_safe_collect(_scrape_hackerearth))
+    combined.extend(_safe_collect(_scrape_dorahacks))
 
     filtered = [item for item in _dedupe(combined) if _is_not_expired(item)]
     return json.dumps(filtered, sort_keys=True, indent=2)
