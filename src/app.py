@@ -1,5 +1,5 @@
-#!/usr/bin/env python3	
-from flask import Flask, render_template, jsonify
+#!/usr/bin/env python3
+from flask import Flask, render_template, Response
 import hackscraper
 # from flask_restful import Resource, Api #i should use this
 app = Flask('hackathonscraperAPI')
@@ -10,6 +10,6 @@ def index():
 
 @app.route('/api')
 def api():
-	return hackscraper.scrape()
+	return Response(hackscraper.scrape(), mimetype='application/json')
 app.add_url_rule('/api', 'api', api)
 app.add_url_rule('/', 'index', index)
