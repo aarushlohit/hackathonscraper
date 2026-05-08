@@ -409,6 +409,31 @@ def _scrape_devfolio():
             if name:
                 theme_names.append(name)
 
+        # Devfolio prefers tenant subdomains like https://{slug}.devfolio.co
+        # Normalize the slug: if slug contains a URL or path, extract last path segment.
+        raw_slug = str(slug or "").strip()
+        cleaned = raw_slug.lower()
+        # If slug looks like a full URL or contains slashes, take the final path segment
+        if "/" in cleaned or cleaned.startswith("http"):
+            parts = re.split(r"/+", cleaned)
+            candidate = parts[-1] if parts[-1] else (parts[-2] if len(parts) > 1 else cleaned)
+        else:
+            candidate = cleaned
+
+        # Remove query strings or fragments
+        candidate = re.split(r"[?#]", candidate)[0]
+        # Keep only safe characters for subdomain (letters, numbers, hyphen)
+        final_slug = re.sub(r"[^a-z0-9-]", "", candidate)
+
+        # If final_slug is non-empty and not containing a dot, prefer tenant subdomain
+        if final_slug and "." not in final_slug and "devfolio" not in final_slug:
+            link_url = f"https://{final_slug}.devfolio.co"
+        else:
+            # Fallback to older path-based URL using the cleaned candidate
+            fallback = candidate or cleaned or slug
+            fallback = fallback.strip().lstrip("/")
+            link_url = f"https://devfolio.co/hackathons/{fallback}"
+
         hackathons.append(
             {
                 "name": title,
@@ -420,7 +445,7 @@ def _scrape_devfolio():
                 },
                 "logo": logo,
                 "status": _status_from_dates(start_raw, end_raw),
-                "link": f"https://devfolio.co/hackathons/{slug}",
+                "link": link_url,
                 "source": "devfolio",
             }
         )

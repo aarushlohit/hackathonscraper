@@ -1,40 +1,14 @@
 [
   {
     "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-10"
+      "end": "2026-05-09",
+      "start": "2026-04-29"
     },
     "desc": "Team",
-    "link": "https://vision.hack2skill.com/event/hacksurgex",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01706353/1775798538009-Untitleddesign.webp",
-    "name": "HackSurgeX",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-15",
-      "start": "2026-04-08"
-    },
-    "desc": "Individual",
-    "link": "https://vision.hack2skill.com/event/pwc_dsu",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01484786/1775729081160-PWxcommunity.square.webp",
-    "name": "PromptWars X Dayananda Sagar University",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-14",
-      "start": "2026-03-31"
-    },
-    "desc": "Team",
-    "link": "https://vision.hack2skill.com/event/eliteher",
-    "location": "virtual",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00255447/1775361189387-CopyofByEliteHerCommunity4.webp",
-    "name": "Elite Her Hackathon",
+    "link": "https://vision.hack2skill.com/event/prompt battle",
+    "location": "hybrid",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00476819/1777385500860-WhatsAppImage20250922at16.37.132544db8a.webp",
+    "name": "Prompt Battle",
     "source": "hack2skill",
     "status": "open"
   },
@@ -59,40 +33,14 @@
     "desc": "Team",
     "link": "https://vision.hack2skill.com/event/apac-genaiacademy-c2",
     "location": "hybrid",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01338243/1774951494799-HomepageAcademyAPAC.webp",
+    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01338243/1774938024911-HomepageAcademyAPAC.webp",
     "name": "Gen AI Academy APAC Edition",
     "source": "hack2skill",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-04-15",
-      "start": "2026-03-28"
-    },
-    "desc": "Team",
-    "link": "https://vision.hack2skill.com/event/devsummit",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01604445/1774692163114-Untitleddesign2.webp",
-    "name": "DevSummit2026",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-22",
-      "start": "2026-03-23"
-    },
-    "desc": "Team",
-    "link": "https://vision.hack2skill.com/event/iconclave-nexus2",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01528751/1774553463504-desktopnexus.jpg.webp",
-    "name": "Nexus2.0",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
+      "end": "2026-05-10",
       "start": "2026-03-25"
     },
     "desc": "Individual",
@@ -100,97 +48,6 @@
     "location": "virtual",
     "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000008/1774606378436-H2SWebinarBanner.webp",
     "name": "MongoDB Essentials",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-25",
-      "start": "2026-03-25"
-    },
-    "desc": "Team",
-    "link": "https://vision.hack2skill.com/event/brinhack",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01201680/1773824578666-brinhack.webp",
-    "name": "BRINHACK 1.0",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-25",
-      "start": "2026-03-17"
-    },
-    "desc": "Individual",
-    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdaysblr",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773732263654-AMDhomepage.webp",
-    "name": "AMD Slingshot - Campus Days | Bengaluru",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-22",
-      "start": "2026-03-17"
-    },
-    "desc": "Individual",
-    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdayskkt",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773732185855-AMDhomepage.webp",
-    "name": "AMD Slingshot - Campus Days | Kolkata",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-03-17"
-    },
-    "desc": "Individual",
-    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdayshyd",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773732135787-AMDhomepage.webp",
-    "name": "AMD Slingshot - Campus Days | Hyderabad",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-15",
-      "start": "2026-03-17"
-    },
-    "desc": "Individual",
-    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdayschn",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773731996410-AMDhomepage.webp",
-    "name": "AMD Slingshot - Campus Days | Chennai",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-29",
-      "start": "2026-03-17"
-    },
-    "desc": "Individual",
-    "link": "https://vision.hack2skill.com/event/amdslingshotcampusdays",
-    "location": "in_person",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER01214811/1773723780463-AMDhomepage.webp",
-    "name": "AMD Slingshot - Campus Days | Delhi",
-    "source": "hack2skill",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-15",
-      "start": "2026-03-05"
-    },
-    "desc": "Team",
-    "link": "https://vision.hack2skill.com/event/solution-challenge-2026",
-    "location": "virtual",
-    "logo": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00000009/1773140913846-Homepagecreative1.webp",
-    "name": "Solution Challenge 2026 - Build with AI",
     "source": "hack2skill",
     "status": "open"
   },
@@ -222,14 +79,27 @@
   },
   {
     "date": {
-      "end": "2026-04-29",
-      "start": "2026-02-26"
+      "end": "2026-05-20",
+      "start": "2026-04-09"
     },
-    "desc": "Zerve AI",
-    "link": "https://zervehack.devpost.com/",
+    "desc": "Baidu",
+    "link": "https://medo.devpost.com/",
     "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/278/921/datas/medium_square.png",
-    "name": "ZerveHack",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/medium_square.png",
+    "name": "Build with MeDo Hackathon ",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-11",
+      "start": "2026-05-05"
+    },
+    "desc": "Google",
+    "link": "https://rapid-agent.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/595/623/datas/medium_square.jpg",
+    "name": "Google Cloud Rapid Agent Hackathon",
     "source": "devpost",
     "status": "open"
   },
@@ -248,79 +118,40 @@
   },
   {
     "date": {
-      "end": "2026-05-20",
-      "start": "2026-04-09"
+      "end": "2026-06-15",
+      "start": "2026-04-15"
     },
-    "desc": "Baidu",
-    "link": "https://medo.devpost.com/",
+    "desc": "sans",
+    "link": "https://findevil.devpost.com/",
     "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/516/528/datas/medium_square.png",
-    "name": "Build with MeDo Hackathon ",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/521/059/datas/medium_square.png",
+    "name": "FIND EVIL!",
     "source": "devpost",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-04-29",
-      "start": "2026-03-31"
+      "end": "2026-05-27",
+      "start": "2026-04-29"
     },
-    "desc": "Devpost, Inc.",
-    "link": "https://learn-ai.devpost.com/",
+    "desc": "reddit",
+    "link": "https://mod-tools-migration.devpost.com/",
     "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/494/datas/medium_square.png",
-    "name": "Learning Hackathon: Spec Driven Development",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/498/306/datas/medium_square.png",
+    "name": "Reddit Mod Tools and Migrated Apps Hackathon",
     "source": "devpost",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-04-17",
-      "start": "2026-02-17"
+      "end": "2026-05-14",
+      "start": "2026-04-13"
     },
-    "desc": "vit",
-    "link": "https://hack-trek.devpost.com/",
+    "desc": "BluePms Software Solutions PVT",
+    "link": "https://blueprint-2026.devpost.com/",
     "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/380/datas/medium_square.png",
-    "name": "Hack Trek",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-03",
-      "start": "2026-03-12"
-    },
-    "desc": "Global NGO Executive Committee",
-    "link": "https://gnec-hackathon-2026-spring.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/363/100/datas/medium_square.png",
-    "name": "GNEC Hackathon 2026 Spring - Compete For UN-Affiliated/NGO Internships & Prizes",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "HackAmerica",
-    "link": "https://hackamerica.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/medium_square.png",
-    "name": "HackAmerica",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-21",
-      "start": "2026-03-26"
-    },
-    "desc": "EnviroCast",
-    "link": "https://from-insight-to-impact.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/451/datas/medium_square.png",
-    "name": "EnviroCast Global Engineering Outlook: From Insight to Impact Hackathon",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/556/423/datas/medium_square.jpg",
+    "name": "BluePrint 2026 - Hackthon for freshers and Students",
     "source": "devpost",
     "status": "open"
   },
@@ -339,196 +170,40 @@
   },
   {
     "date": {
-      "end": "2026-04-26",
-      "start": "2026-02-24"
+      "end": "2026-05-23",
+      "start": "2026-04-11"
     },
-    "desc": "UWB ACM",
-    "link": "https://uwb-hacks-the-future.devpost.com/",
-    "location": "in_person",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/239/724/datas/medium_square.png",
-    "name": "UWB Hacks: The Future!",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "GenAI Fund",
-    "link": "https://qwen-ai-build-day.devpost.com/",
-    "location": "in_person",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/515/703/datas/medium_square.jpg",
-    "name": "QWEN AI BUILD DAY",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "joinluma",
-    "link": "https://luma.devpost.com/",
+    "desc": "HackAmerica",
+    "link": "https://hackamerica.devpost.com/",
     "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/400/471/datas/medium_square.png",
-    "name": "LUMA Hackathon!",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/003/620/523/datas/medium_square.png",
+    "name": "HackAmerica",
     "source": "devpost",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-04-23",
-      "start": "2026-03-11"
+      "end": "2026-06-19",
+      "start": "2026-04-11"
     },
-    "desc": "EcoHack",
-    "link": "https://ecohack-28337.devpost.com/",
+    "desc": "LUMA",
+    "link": "https://luma-hackathon-500.devpost.com/",
     "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/260/699/datas/medium_square.jpg",
-    "name": "EcoHack",
+    "logo": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "name": "LUMA Hackathon: Pitch your idea, win up to $500",
     "source": "devpost",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-04-15",
-      "start": "2026-03-16"
+      "end": "2026-06-02",
+      "start": "2026-04-21"
     },
-    "desc": "hyperbloom hacks",
-    "link": "https://hyperbloom-v2.devpost.com/",
+    "desc": "NextGenHacks",
+    "link": "https://nextgenhacks.devpost.com/",
     "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/490/161/datas/medium_square.png",
-    "name": "Hyperbloom V2",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "ORION ",
-    "link": "https://orion-build-challenge.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/545/760/datas/medium_square.png",
-    "name": "Orion Build Challenge",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-03-06"
-    },
-    "desc": "Green Spaces Initiative",
-    "link": "https://ecohackers.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/397/675/datas/medium_square.png",
-    "name": "EcoHacks",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "Global Fusion Hackathon",
-    "link": "https://global-fusion-hackathon.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/548/234/datas/medium_square.png",
-    "name": "Global Fusion hackathon",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-06-27",
-      "start": "2026-02-08"
-    },
-    "desc": "Binnovative",
-    "link": "https://phystech-2026.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/273/831/datas/medium_square.png",
-    "name": "PhysTech 2026: Physical Activity and Technology Hack Day",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "GenLink",
-    "link": "https://genlink-hacks.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/543/742/datas/medium_square.jpeg",
-    "name": "GenLink Hacks",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "Project GRID ",
-    "link": "https://aurora-global-hackathon-grid.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/523/889/datas/medium_square.jpeg",
-    "name": "Aurora Global Hackathon",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-25",
-      "start": "2026-03-31"
-    },
-    "desc": "Unicorn Factory Lisboa and START Lisbon",
-    "link": "https://future-innovators-hackathon.devpost.com/",
-    "location": "in_person",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/517/208/datas/medium_square.png",
-    "name": "The Future Innovators Hackathon: A Road to START Hack",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "Tech Builders ",
-    "link": "https://techbuilders.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/546/014/datas/medium_square.png",
-    "name": "Tech Builders Program",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-02",
-      "start": "2026-04-04"
-    },
-    "desc": "nira ai tech",
-    "link": "https://nira-hackathon.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/526/628/datas/medium_square.png",
-    "name": "Nira hackathon",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-17",
-      "start": "2026-02-17"
-    },
-    "desc": "automata",
-    "link": "https://hatrek.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/336/743/datas/medium_square.png",
-    "name": "hatrek",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/596/347/datas/medium_square.png",
+    "name": "NextGenHacks",
     "source": "devpost",
     "status": "open"
   },
@@ -547,183 +222,14 @@
   },
   {
     "date": {
-      "end": "2026-04-30",
-      "start": "2026-01-12"
+      "end": "2026-05-15",
+      "start": "2026-04-12"
     },
-    "desc": "university of pennsylvania",
-    "link": "https://ese4510s26.devpost.com/",
+    "desc": "MLH",
+    "link": "https://code-with-gemini.devpost.com/",
     "location": "virtual",
     "logo": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-    "name": "2025-2026 Spring ESE Senior Design",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-30",
-      "start": "2026-03-31"
-    },
-    "desc": "Tech Z",
-    "link": "https://ai-for-everyone.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/037/datas/medium_square.jpg",
-    "name": "AI for Everyone",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-15",
-      "start": "2026-03-09"
-    },
-    "desc": "AccentureDatabricks",
-    "link": "https://databricksaccenturehackathon.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-    "name": "Databricks_Accenture_Hackathon",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "no host",
-    "link": "https://hacknsu-s6.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/537/635/datas/medium_square.jpg",
-    "name": "HackNSU Season 6",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-02",
-      "start": "2026-04-03"
-    },
-    "desc": "Fort Worth DAO",
-    "link": "https://fwtx.devpost.com/",
-    "location": "in_person",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/074/262/datas/medium_square.png",
-    "name": "HackFW",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-03-31"
-    },
-    "desc": "UC Irvine",
-    "link": "https://ucidesignathon26.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/449/854/datas/medium_square.png",
-    "name": "UCI Design-a-thon 2026",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "Hsu Yamone Minn",
-    "link": "https://flood-safety.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/518/289/datas/medium_square.png",
-    "name": "Flood Safety",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-17",
-      "start": "2025-12-09"
-    },
-    "desc": "MPI Program, Bloustein School, Rutgers",
-    "link": "https://raise26.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/048/832/datas/medium_square.png",
-    "name": "RAISE-26",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "Google Developer Group LMU",
-    "link": "https://nacos-x-gdg-ai-hackathon.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/496/809/datas/medium_square.jpg",
-    "name": "NACOS X GDG AI Hackathon",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-23",
-      "start": "2026-03-29"
-    },
-    "desc": "Arya Main",
-    "link": "https://code-innovation.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/497/440/datas/medium_square.png",
-    "name": "Code Innovation",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-30",
-      "start": "2026-03-17"
-    },
-    "desc": "Saket Creations",
-    "link": "https://bitbuilders-code-race-apr-2026.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/452/443/datas/medium_square.png",
-    "name": "Rebuilding the OS: Core System Utilities Hackathon",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-07-01",
-      "start": "2026-03-30"
-    },
-    "desc": "Hoobit",
-    "link": "https://hoobit-hacks-2026.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/517/588/datas/medium_square.png",
-    "name": "Hoobit Hacks 2026",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-01",
-      "start": "2026-03-30"
-    },
-    "desc": "UPenn ESE",
-    "link": "https://ese-1900-silicon-garage-s26.devpost.com/",
-    "location": "virtual",
-    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/517/642/datas/medium_square.jpg",
-    "name": "ESE 1900, Silicon Garage, Spring 2026",
-    "source": "devpost",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-02-27"
-    },
-    "desc": "Tech Campus Clubs",
-    "link": "https://think-smart-build-smart.devpost.com/",
-    "location": "in_person",
-    "logo": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-    "name": " DEFI Hack Days : From Internal Problem to Digital Solution",
+    "name": "Code With Gemini",
     "source": "devpost",
     "status": "open"
   },
@@ -742,33 +248,904 @@
   },
   {
     "date": {
-      "end": "2026-04-17",
-      "start": "2026-04-14"
+      "end": "2026-06-27",
+      "start": "2026-02-08"
     },
-    "desc": "Sri Venkateswara College (SVC), Delhi University, Delhi",
-    "link": "https://unstop.com/hackathons/datasphere-2026-hackathon-sri-venkateswara-college-svc-du-delhi-1675026",
+    "desc": "Binnovative",
+    "link": "https://phystech-2026.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/273/831/datas/medium_square.png",
+    "name": "PhysTech 2026: Physical Activity and Technology Hack Day",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-01",
+      "start": "2026-04-24"
+    },
+    "desc": "Creator Colosseum",
+    "link": "https://creatorcolosseum.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/601/771/datas/medium_square.png",
+    "name": "Creator Colosseum Startup Competition: Student Founders. Real Startups. ",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-14",
+      "start": "2026-04-12"
+    },
+    "desc": "VidOpt LLC",
+    "link": "https://girls-in-stem-ai-vidopt.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/575/008/datas/medium_square.png",
+    "name": "Girls in STEM: AI for Social Good Hackathon",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-29",
+      "start": "2026-04-01"
+    },
+    "desc": "Google Developer Group LMU",
+    "link": "https://nacos-x-gdg-ai-hackathon.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/496/809/datas/medium_square.jpg",
+    "name": "NACOS X GDG AI Hackathon",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "MedIntelli Technologies",
+    "link": "https://weatherwise-hack.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/640/450/datas/medium_square.png",
+    "name": "WeatherWise Hack",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "Next Bytes",
+    "link": "https://next-byte-hacks-v2.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/191/536/datas/medium_square.jpg",
+    "name": "Next Byte Hacks V2",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-07-01",
+      "start": "2026-03-30"
+    },
+    "desc": "Hoobit",
+    "link": "https://hoobit-hacks-2026.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/517/588/datas/medium_square.png",
+    "name": "Hoobit Hacks 2026",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "For&FromMada",
+    "link": "https://html-rpg-game.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/641/818/datas/medium_square.png",
+    "name": "Maki 2D Pixel RPG Game ",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "n/a",
+    "link": "https://internal-tools-hacks.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/641/874/datas/medium_square.png",
+    "name": "Internal Tools Hacks",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-02",
+      "start": "2026-04-22"
+    },
+    "desc": "presentme",
+    "link": "https://github-readme-generation.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/601/116/datas/medium_square.png",
+    "name": "Github readme generation ",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "EcoCore",
+    "link": "https://build-your-vision.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/603/619/datas/medium_square.png",
+    "name": "Build Your Vision",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-08-22",
+      "start": "2026-04-01"
+    },
+    "desc": "Kids for Kids Toronto Coding Club",
+    "link": "https://genz-can-hack-2026.devpost.com/",
     "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69dde75640883_whatsapp_image_2026-04-14_at_12.15.34_am.jpeg",
-    "name": "DATASPHERE 2026: Hackathon",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/517/951/datas/medium_square.jpg",
+    "name": "GenZ Can Hack 2026",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "Elastic",
+    "link": "https://hacknight-elk-aws.devpost.com/",
+    "location": "in_person",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/648/824/datas/medium_square.jpg",
+    "name": "Hacknight Bengaluru: Build AI Agents",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "Santa Monica College",
+    "link": "https://pacific-portal-xr-hack.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/401/747/datas/medium_square.png",
+    "name": "Pacific Portal XR",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "KhTuran",
+    "link": "https://ai-game-week-29908.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/624/535/datas/medium_square.png",
+    "name": "AI Game Week",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-22",
+      "start": "2026-04-11"
+    },
+    "desc": "Artificial Intelligence Society",
+    "link": "https://international-prosolve-2026.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/522/316/datas/medium_square.jpeg",
+    "name": "1st International Prosolve 2026",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-28",
+      "start": "2026-04-24"
+    },
+    "desc": "Arya College Old Campus",
+    "link": "https://codestorm.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/600/607/datas/medium_square.png",
+    "name": "CodeStorm",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-01",
+      "start": "2026-05-01"
+    },
+    "desc": "social entrepreneurship club",
+    "link": "https://westhacks.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/526/754/datas/medium_square.png",
+    "name": "West Hacks",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-14",
+      "start": "2026-04-15"
+    },
+    "desc": "BluePms Software Solutions PVT",
+    "link": "https://connectsblue.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/571/266/datas/medium_square.jpeg",
+    "name": "Your idea vs 1,000 other marketers. Let\u2019s see where you actually stand. ",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "Quantum Veda AI Solution",
+    "link": "https://spitiaihackathon.devpost.com/",
+    "location": "in_person",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/519/728/datas/medium_square.png",
+    "name": "Spiti-AI Hackathon",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-30",
+      "start": "2026-04-16"
+    },
+    "desc": "GB3-Productions",
+    "link": "https://glitch-to-win-games.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/572/176/datas/medium_square.png",
+    "name": "GLITCHED GAMES",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-07-10",
+      "start": "2026-04-28"
+    },
+    "desc": "DevSoc",
+    "link": "https://devsoc-starlight-2026.devpost.com/",
+    "location": "in_person",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/622/209/datas/medium_square.png",
+    "name": "DevSoc Starlight 2026",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "Design4Future Team",
+    "link": "https://design4future.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/639/301/datas/medium_square.png",
+    "name": "Design4Future",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-14",
+      "start": "2026-04-30"
+    },
+    "desc": "Oink Game Jam",
+    "link": "https://oink-game-jam-2.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/610/085/datas/medium_square.png",
+    "name": "Oink Game Jam 2 ($3000+ in prizes)",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "COLORSTACKatFIU",
+    "link": "https://305codestormhackathon2026.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "name": "305 CodeStorm Edition May 2026",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "NSBM",
+    "link": "https://algoxplore.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "name": "AlgoXplore 2.0",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2030-03-24",
+      "start": "2026-03-24"
+    },
+    "desc": "HacKSU",
+    "link": "https://demokhe.devpost.com/",
+    "location": "virtual",
+    "logo": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+    "name": "DEMOKHE",
+    "source": "devpost",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-22",
+      "start": "2026-05-08"
+    },
+    "desc": "FlowZint",
+    "link": "https://unstop.com/hackathons/flowzint-ai-hackathon-2026-flowzint-1684264",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69fdbccf939db_organisation_image-Kw6bWz3Ad6199524700KC9M8mxxg7.png",
+    "name": "FlowZint AI Hackathon 2026",
     "source": "unstop",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-14"
+      "end": "2026-05-29",
+      "start": "2026-05-08"
     },
-    "desc": "GD Goenka University, Gurugram",
-    "link": "https://unstop.com/hackathons/codekshetra-gd-goenka-university-gurugram-1674989",
+    "desc": "Grevoro",
+    "link": "https://unstop.com/hackathons/greenhack-by-grevoro-grevoro-1684092",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69fd6bf3cc40c_greenhack_thumbnail.png",
+    "name": "GreenHack By Grevoro",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-09",
+      "start": "2026-05-01"
+    },
+    "desc": "Sardar Patel College of Engineering (SPCE), Mumbai",
+    "link": "https://unstop.com/hackathons/hackgdg-sardar-patel-college-of-engineering-spce-mumbai-1684233",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69fda96d9788d_",
+    "name": "HackGDG",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-23",
+      "start": "2026-05-08"
+    },
+    "desc": "Product Space",
+    "link": "https://unstop.com/hackathons/agentic-ai-hackathon-product-space-1684242",
     "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69ddbdc2ee18a_inkjnkmage_optimized_1000.png",
-    "name": "CodeKshetra",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69fd9f716a179_ai_product_hackathon_-_post__2_.png",
+    "name": "Agentic AI Hackathon",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-20",
+      "start": "2026-05-08"
+    },
+    "desc": "Galgotias University (GU), Greater Noida",
+    "link": "https://unstop.com/hackathons/quantcraft-galgotias-university-gu-greater-noida-1684046",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69fceff336cee_up.png",
+    "name": "QuantCraft",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-11-11",
+      "start": "2026-04-19"
+    },
+    "desc": "Guru Nanak Institutions Technical Campus (GNITC), Hyderabad",
+    "link": "https://unstop.com/hackathons/tech-horizon-20-national-level-hackathon-guru-nanak-institutions-technical-campus-gnitc-hyderabad-1677311",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69e4c35dd9720_screenshot_2026-04-19_172807.png",
+    "name": "Tech Horizon 2.0 - National Level Hackathon",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-15",
+      "start": "2026-05-06"
+    },
+    "desc": "Algorithm Aliens Private Limited",
+    "link": "https://unstop.com/hackathons/algorithm-aliens-aethronix-2026-algorithm-aliens-private-limited-1683047",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69f9cf550efd6_organisation_image-tzhoYZySIt1656811453zhJrANJHXQ.png",
+    "name": "Algorithm Aliens Aethronix 2026",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-14",
+      "start": "2026-05-06"
+    },
+    "desc": "CMR Institute of Technology Bangalore",
+    "link": "https://unstop.com/hackathons/promptx-cmr-institute-of-technology-bangalore-1683200",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69fa4b6ec1175_college_logo.jpeg",
+    "name": "PromptX",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-14",
+      "start": "2026-05-06"
+    },
+    "desc": "CMR Institute of Technology Bangalore",
+    "link": "https://unstop.com/hackathons/the-ui-leak-cmr-institute-of-technology-bangalore-1683204",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69fa559d7ca3a_college_logo.jpeg",
+    "name": "The UI Leak",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-16",
+      "start": "2026-05-07"
+    },
+    "desc": "AI Academia",
+    "link": "https://unstop.com/hackathons/ctrlz-reboot-reality-ai-academia-1683686",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69fc473af4153_organisation_image-zQQsmNFAOa2124196662fguUvfcM0R.png",
+    "name": "CTRL+Z : Reboot Reality",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-11",
+      "start": "2026-05-07"
+    },
+    "desc": "Crowdera Foundation",
+    "link": "https://unstop.com/hackathons/nextjs-uiux-hackathon-crowdera-foundation-1683571",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69fd55da99a75_organisation_image-gUKCfNRMIo789637330aycufaoZaS.png",
+    "name": "Next.js UI/UX Hackathon",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-11",
+      "start": "2026-05-07"
+    },
+    "desc": "Crowdera Foundation",
+    "link": "https://unstop.com/hackathons/marketing-for-good-hackathon-build-campaigns-that-create-impact-crowdera-foundation-1683568",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69fd561da6ef7_organisation_image-gUKCfNRMIo789637330aycufaoZaS.png",
+    "name": "Marketing for Good Hackathon | Build Campaigns That Create Impact",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-15",
+      "start": "2026-05-05"
+    },
+    "desc": "Cyber hx",
+    "link": "https://unstop.com/hackathons/zero-day-heist-6-hour-ctf-challenge-cyber-hx-1683151",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69fa2bdd55489_zerodayheist.jpeg",
+    "name": "Zero Day Heist \u2013 6 Hour CTF Challenge",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-30",
+      "start": "2026-05-04"
+    },
+    "desc": "Gradient",
+    "link": "https://unstop.com/hackathons/ai-hackathon-for-builders-gradient-1682745",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f89506abea7_ai_product_hackathon_-_post_02__1_.png",
+    "name": "AI Hackathon for Builders",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-01",
+      "start": "2026-05-05"
+    },
+    "desc": "Nazarbayev University, Kazakhstan",
+    "link": "https://unstop.com/hackathons/2nd-smartearth-2026-hackathon-nazarbayev-university-kazakhstan-1682864",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f98d926a4b5_nazarbeyev_logo.png",
+    "name": "2nd SmartEarth 2026 Hackathon",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-30",
+      "start": "2026-05-04"
+    },
+    "desc": "GL Bajaj Institute of Management and Research",
+    "link": "https://unstop.com/hackathons/ai-hackathon-for-builders-gl-bajaj-institute-of-management-and-research-1682752",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f89be8b6034_ai_product_hackathon_-_post.png",
+    "name": "AI Hackathon for Builders",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-29",
+      "start": "2026-05-04"
+    },
+    "desc": "Ratefluencer",
+    "link": "https://unstop.com/hackathons/the-ratefluencer-hackathon-hackathon-ratefluencer-1682515",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f8134005fff_9808131b-dcfd-4298-9b37-b0338330fd09.jpg",
+    "name": "The Ratefluencer Hackathon",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-15",
+      "start": "2026-05-04"
+    },
+    "desc": "Academy of Technology, Hooghly",
+    "link": "https://unstop.com/hackathons/roots-academy-of-technology-hooghly-1682412",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f8639901da6_logo__2_.png",
+    "name": "Roots",
     "source": "unstop",
     "status": "open"
   },
   {
     "date": {
       "end": "2026-05-08",
+      "start": "2026-05-02"
+    },
+    "desc": "Birsa Institute of Technology (BIT), Sindri",
+    "link": "https://unstop.com/hackathons/codequest-birsa-institute-of-technology-bit-sindri-1682289",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f62601aaf85_codequest__1_.jpg",
+    "name": "CodeQuest",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-08",
+      "start": "2026-05-02"
+    },
+    "desc": "Hackathon and Coding Club, BIT Sindri",
+    "link": "https://unstop.com/hackathons/war-of-web-hackoverse-hackathon-and-coding-club-bit-sindri-1682305",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f7128ac2096_war_of_web.png",
+    "name": "War of Web",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-23",
+      "start": "2026-05-02"
+    },
+    "desc": "sanjivani university",
+    "link": "https://unstop.com/hackathons/zerobreach-ctf-2026-sanjivani-university-1682092",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f65b1252354_whatsapp_image_2026-05-03_at_1.43.58_am.jpeg",
+    "name": "Zerobreach CTF 2026",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-31",
+      "start": "2026-05-06"
+    },
+    "desc": "SNS Institutions, Coimbatore, Tamil Nadu",
+    "link": "https://unstop.com/hackathons/gdta-hackathon-2026-sns-institutions-coimbatore-tamil-nadu-1682187",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f58f1820fa4_gdta_-_india_chapter_logo_page-0001.jpg",
+    "name": "Global Design Thinking Alliance Hackathon 2026",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-15",
+      "start": "2026-05-01"
+    },
+    "desc": "Yenepoya (Deemed to be University)",
+    "link": "https://unstop.com/hackathons/project-sankalp-code4change-yenepoya-deemed-to-be-university-1681684",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f364cbd2fc5_untitled_design.png",
+    "name": "Project Sankalp: Code4Change",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-15",
+      "start": "2026-05-01"
+    },
+    "desc": "Indian Institute of Technology (IIT), Bombay",
+    "link": "https://unstop.com/hackathons/devfusion-20-the-developers-hackathon-iit-bombay-1678781",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f3783ca3933_enginow_transparent_logo.png",
+    "name": "Devfusion 2.0- The Developers Hackathon",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-04-14"
+    },
+    "desc": "Oriental College of Technology (OCT), Bhopal",
+    "link": "https://unstop.com/hackathons/codesprint-one-shot-challenge-oriental-college-of-technology-oct-bhopal-1674940",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69fca5a8caed0_download__2_.jpeg",
+    "name": "CodeSprint: One Shot Challenge",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-12",
+      "start": "2026-04-28"
+    },
+    "desc": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Avadi",
+    "link": "https://unstop.com/hackathons/pixel-20-vel-tech-rangarajan-dr-sagunthala-rd-institute-of-science-and-technology-avadi-1680908",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69f24df245323_",
+    "name": "Pixel 2.0",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-09",
+      "start": "2026-04-19"
+    },
+    "desc": "KIET Group of Institutions",
+    "link": "https://unstop.com/hackathons/hacktrepreneur-kiet-group-of-institutions-1677329",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f0cd10c7b15_200x200_png__2_.png",
+    "name": "HackTrepreneur",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-12",
+      "start": "2026-04-28"
+    },
+    "desc": "Chandigarh Group of Colleges (CGC), Jhanjeri",
+    "link": "https://unstop.com/hackathons/cyberforge-2026-chandigarh-group-of-colleges-cgc-jhanjeri-1680585",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f04f754a444_modern-minimal-logo-for-tech-hackathon-community-c__1_.jpeg",
+    "name": "Cyberforge 2026",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-15",
+      "start": "2026-04-28"
+    },
+    "desc": "Indian Institute of Technology (IIT), Madras",
+    "link": "https://unstop.com/hackathons/road-safety-hackathon-2026-iit-madras-1680515",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69f9d3812ee11_iitmlogo120.png",
+    "name": "Road Safety Hackathon 2026 - BIMSTEC Countries (excluding India)",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-11",
+      "start": "2026-04-27"
+    },
+    "desc": "Bootcoding Pvt. Ltd.",
+    "link": "https://unstop.com/hackathons/tense-ai-x-bootcoding-pvt-ltd-hackathon-bootcoding-pvt-ltd-1680402",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69ef75ff9aabe_beige_minimal_fashion_special_collaboration.png",
+    "name": "Tense Ai X Bootcoding Pvt Ltd Hackathon",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-04-17"
+    },
+    "desc": "Maharaja Institute of Technology (MIT), Mysore",
+    "link": "https://unstop.com/hackathons/codequest-the-ultimate-tech-hunt-maharaja-institute-of-technology-mit-mysore-1676850",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69e4996b8def6_cq_logo.jpeg",
+    "name": "Codequest: The Ultimate Tech Hunt",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-23",
+      "start": "2026-04-16"
+    },
+    "desc": "SecLeaf",
+    "link": "https://unstop.com/hackathons/secleaf-q2-ctf-2026-secleaf-1636242",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-698aed8de76cb_ctf.png",
+    "name": "SecLeaf Q2 CTF 2026",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-08-10",
+      "start": "2026-04-25"
+    },
+    "desc": "Echelon Institute Of Technology Faridabad",
+    "link": "https://unstop.com/hackathons/codefusion-2k26-echelon-institute-of-technology-faridabad-1678346",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69e8635c230b5_codeverse_logo_in_light.png",
+    "name": "CODEFUSION 2k26",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-04-11"
+    },
+    "desc": "Karmaveer Bhaurao Patil College of Engineering",
+    "link": "https://unstop.com/hackathons/hacknovate-2k26-karmaveer-bhaurao-patil-college-of-engineering-1674247",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69dbd7c674f69_logo.jpeg",
+    "name": "Hacknovate 2k26",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-04-23"
+    },
+    "desc": "Skilstation",
+    "link": "https://unstop.com/hackathons/summer-hackathon-national-wide-competition-2026-skilstation-1663294",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69beb50f060ee_whatsapp_image_2026-03-09_at_12.38.22_pm-removebg-preview.png",
+    "name": "Summer Hackathon National Wide Competition 2026",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-20",
+      "start": "2026-04-20"
+    },
+    "desc": "Kadi Sarva Vishwavidyalaya (KSV), Gandhinagar, Gujarat",
+    "link": "https://unstop.com/hackathons/odoo-x-ksv-hackathon-2026-kadi-sarva-vishwavidyalaya-ksv-gandhinagar-gujarat-1678683",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69f259de5748a_KSV.jpg",
+    "name": "Odoo x KSV Hackathon 2026",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-23",
+      "start": "2026-04-23"
+    },
+    "desc": "Zuup",
+    "link": "https://unstop.com/hackathons/far-away-zuup-1677472",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69f9854e9c6c7_organisation_image-zomZBDKWaY9613024863ZbNnN8X9O.png",
+    "name": "Far Away",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-04-23"
+    },
+    "desc": "TigerGraph",
+    "link": "https://unstop.com/hackathons/graphrag-inference-hackathon-by-tigergraph-tigergraph-1678762",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69e94122634cc_screenshot_2026-04-23_031342.png",
+    "name": "GraphRAG Inference Hackathon by TigerGraph",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-21",
+      "start": "2026-04-21"
+    },
+    "desc": "Adamas University, Kolkata",
+    "link": "https://unstop.com/hackathons/odoo-x-adamas-university-hackathon-2026-adamas-university-kolkata-1677914",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69e70962a7106_au_logo_page-0001.jpg",
+    "name": "Odoo X Adamas University Hackathon 2026",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-19",
+      "start": "2026-04-19"
+    },
+    "desc": "Bytebattle Global Community",
+    "link": "https://unstop.com/hackathons/codestrike-2026-bytebattle-global-community-1677371",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69e50707f37c3_img_20260419_074104.jpg",
+    "name": "CodeStrike 2026",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-14",
+      "start": "2026-04-16"
+    },
+    "desc": "D.Y. Patil Ramrao Adik Institute of Technology (RAIT), Navi Mumbai",
+    "link": "https://unstop.com/hackathons/kleos-40-dy-patil-ramrao-adik-institute-of-technology-rait-navi-mumbai-1647523",
+    "location": "virtual",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69ee5c1a15b66_",
+    "name": "Kleos 4.0",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-13",
+      "start": "2026-04-14"
+    },
+    "desc": "GL Bajaj Institute of Technology and Management, Delhi NCR, Uttar Pradesh",
+    "link": "https://unstop.com/hackathons/supernova-hacks-20-gl-bajaj-institute-of-technology-and-management-delhi-ncr-uttar-pradesh-1675870",
+    "location": "in_person",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69dc91ab2c8d7_whatsapp_image_2026-04-11_at_19.22.57.jpeg",
+    "name": "SuperNova Hacks 2.0",
+    "source": "unstop",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
       "start": "2026-04-13"
     },
     "desc": "SJC Institute of Technology",
@@ -781,98 +1158,7 @@
   },
   {
     "date": {
-      "end": "2026-04-22",
-      "start": "2026-04-10"
-    },
-    "desc": "Department of Computer Science (DoCS), University of Delhi (DU)",
-    "link": "https://unstop.com/hackathons/algoholics-sankalan-2026-department-of-computer-science-docs-university-of-delhi-du-1673783",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69dd3aabe761b_screenshot_from_2026-04-14_00-19-01.png",
-    "name": "Algoholics",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-24",
-      "start": "2026-04-14"
-    },
-    "desc": "Oriental College of Technology (OCT), Bhopal",
-    "link": "https://unstop.com/hackathons/codesprint-one-shot-challenge-oriental-college-of-technology-oct-bhopal-1674940",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69dd436c73c8e_download__2_.jpeg",
-    "name": "CodeSprint: One Shot Challenge",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-13"
-    },
-    "desc": "Truba Institute of Engineering and Information Technology (TIEIT), Bhopal",
-    "link": "https://unstop.com/hackathons/codestorm-the-ultimate-coding-clash-truba-institute-of-engineering-and-information-technology-tieit-bhopal-1674925",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69dd3283ce438_screenshot_2026-04-13_234333.png",
-    "name": "CodeStorm: The Ultimate Coding Clash",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-23",
-      "start": "2026-04-13"
-    },
-    "desc": "Department of Computer Science (DoCS), University of Delhi (DU)",
-    "link": "https://unstop.com/hackathons/ctrlquery-sankalan-2026-department-of-computer-science-docs-university-of-delhi-du-1674906",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69ddfe1f705a0_w4hokccbk03elhk7.png",
-    "name": "CTRL+QUERY",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-13"
-    },
-    "desc": "Manav Rachna University (MRU), Faridabad",
-    "link": "https://unstop.com/hackathons/shetech-coding-quest-manav-rachna-university-faridabad-1674904",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69dd254c9ecec_whatsapp_image_2026-04-12_at_18.03.24.jpeg",
-    "name": "SheTech Coding Quest",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-20",
-      "start": "2026-04-13"
-    },
-    "desc": "SheKunj",
-    "link": "https://unstop.com/hackathons/agentic-ai-hackathon-powered-by-microsoft-in-collaboration-with-jit-borawan-shekunj-1674813",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69dce393ac583_shekunj_edu.logo-photoroom__2___1_.png",
-    "name": "Agentic AI Hackathon Powered by Microsoft In Collaboration with JIT Borawan",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-17",
-      "start": "2026-04-13"
-    },
-    "desc": "National Institute of Technology Karnataka (NITK), Surathkal",
-    "link": "https://unstop.com/hackathons/rehersion26-nitk-surathkal-1674783",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69dcd8b421245_rechersion_logo.png",
-    "name": "RecHERsion'26",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
+      "end": "2026-05-10",
       "start": "2026-04-12"
     },
     "desc": "hushh.ai",
@@ -885,85 +1171,7 @@
   },
   {
     "date": {
-      "end": "2026-05-10",
-      "start": "2026-04-13"
-    },
-    "desc": "Maharaja Institute of Technology (MIT), Mysore",
-    "link": "https://unstop.com/hackathons/codequest-the-ultimate-tech-hunt-maharaja-institute-of-technology-mit-mysore-1674398",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69dbb7ca54234_chatgpt_image_apr_2,_2026,_07_42_47_pm.png",
-    "name": "CODEQUEST: The Ultimate Tech Hunt",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-17",
-      "start": "2026-04-13"
-    },
-    "desc": "National Institute of Technology (NIT), Kurukshetra",
-    "link": "https://unstop.com/hackathons/codemathon-26-national-institute-of-technology-nit-kurukshetra-1674341",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69db8c7139204_anant_logo_2.jpg",
-    "name": "Codemathon 26",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-12"
-    },
-    "desc": "UnsaidTalks Education",
-    "link": "https://unstop.com/hackathons/attentionx-ai-hackathon-unsaidtalks-education-1674332",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69db8458b4018_organisation_image-15gX2VeL6I1798635569wpnLmVv1Mw.png",
-    "name": "AttentionX AI Hackathon",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-12"
-    },
-    "desc": "Bharati vidyapeeth college of engineering , New Delhi",
-    "link": "https://unstop.com/hackathons/code-clutch-bharati-vidyapeeth-college-of-engineering-new-delhi-1674336",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69db7e02bdb61_frame_145.png",
-    "name": "Code Clutch",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-09"
-    },
-    "desc": "MIT Academy of Engineering (MITAOE), Pune, Maharashtra",
-    "link": "https://unstop.com/hackathons/nirmaan-40-mit-academy-of-engineering-mitaoe-pune-maharashtra-1673294",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69de09913318a_file.jpeg",
-    "name": "Nirmaan 4.0",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-11"
-    },
-    "desc": "S.R.M. Institute of Science and Technology",
-    "link": "https://unstop.com/hackathons/ai-arcade-game-development-challenge-srm-institute-of-science-and-technology-1673977",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69da1942c82ef_acm_logo.jpeg",
-    "name": "BLOCKQUEST 2026: AI Arcade Game Development Challenge",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-10",
+      "end": "2026-05-11",
       "start": "2026-04-11"
     },
     "desc": "Allenhouse Institute of Technology",
@@ -976,267 +1184,7 @@
   },
   {
     "date": {
-      "end": "2026-05-01",
-      "start": "2026-04-11"
-    },
-    "desc": "BluePMS Software Solutions Pvt Ltd",
-    "link": "https://unstop.com/hackathons/blueprint-2026-bluepms-software-solutions-pvt-ltd-1674022",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69da265a5cd30_gemini_generated_image_5aj2m15aj2m15aj2-3.png",
-    "name": "BluePrint 2026",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-01",
-      "start": "2026-04-10"
-    },
-    "desc": "SNS Square Consultancy Services Private Limited",
-    "link": "https://unstop.com/hackathons/indias-1st-boldest-ai-challenge-sns-square-consultancy-services-private-limited-1673650",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69da2aa05fafe_download__5_.jpeg",
-    "name": "Bold AI - India's 1st Boldest AI Challenge",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-27",
-      "start": "2026-04-10"
-    },
-    "desc": "Bansal Institute of Science & Technology, Bhopal",
-    "link": "https://unstop.com/hackathons/bgi-hackathon-2026-vision-2047-viksit-bharat-bansal-institute-of-science-technology-bhopal-1673469",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d8a2603e988_1q.jpg",
-    "name": "BGI Hackathon 2026 \u2013 Vision 2047: Viksit Bharat",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-09"
-    },
-    "desc": "YENEPOYA SCHOOL OF ENGINEERING AND TECHNOLOGY ",
-    "link": "https://unstop.com/hackathons/open-loop-openloop-26-yenepoya-school-of-engineering-and-technology-1673376",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d7e62cd20ad_yset_logo.webp",
-    "name": "Open Loop",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-01",
-      "start": "2026-04-10"
-    },
-    "desc": "SNS Institution",
-    "link": "https://unstop.com/hackathons/indias-1st-boldest-ai-challenge-sns-institution-1673446",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d87f91a7b7a_groups.png",
-    "name": "Bold AI - India's 1st Boldest AI Challenge",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-03"
-    },
-    "desc": "Soft Computing Research Society, New Delhi, Delhi",
-    "link": "https://unstop.com/hackathons/2nd-smallai-hackathon-soft-computing-research-society-new-delhi-delhi-1669862",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69cf638d3934e_acm_fremont_logo.jpeg",
-    "name": "2nd SmallAI Hackathon",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-07"
-    },
-    "desc": "Vasavi College of Engineering (VCE), Hyderabad",
-    "link": "https://unstop.com/hackathons/code-relay-cse-acumen-2026-vasavi-college-of-engineering-vce-hyderabad-1671605",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d405326fa1d_img-20260401-wa0002.jpg",
-    "name": "Code Relay",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-07"
-    },
-    "desc": "Vasavi College of Engineering (VCE), Hyderabad",
-    "link": "https://unstop.com/hackathons/cryptic-nexus-cse-acumen-2026-vasavi-college-of-engineering-vce-hyderabad-1671611",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d40b6694b03_img-20260401-wa0002.jpg",
-    "name": "Cryptic Nexus",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-07"
-    },
-    "desc": "Vasavi College of Engineering (VCE), Hyderabad",
-    "link": "https://unstop.com/hackathons/hack-the-core-cse-acumen-2026-vasavi-college-of-engineering-vce-hyderabad-1671615",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d40eee898ba_img-20260401-wa0002.jpg",
-    "name": "Hack The Core",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-07"
-    },
-    "desc": "Vasavi College of Engineering (VCE), Hyderabad",
-    "link": "https://unstop.com/hackathons/bid-n-code-cse-acumen-2026-vasavi-college-of-engineering-vce-hyderabad-1671606",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d407309bb09_img-20260401-wa0002.jpg",
-    "name": "Bid N Code",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-07"
-    },
-    "desc": "Vasavi College of Engineering (VCE), Hyderabad",
-    "link": "https://unstop.com/hackathons/prompt-wars-cse-acumen-2026-vasavi-college-of-engineering-vce-hyderabad-1671604",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d4027a25534_img-20260401-wa0002.jpg",
-    "name": "Prompt Wars",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-20",
-      "start": "2026-04-01"
-    },
-    "desc": "Techno Main Salt Lake, Kolkata, West Bengal",
-    "link": "https://unstop.com/hackathons/hack-your-way-envisage26-techno-main-salt-lake-kolkata-west-bengal-1665487",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69c7748642ca9_whatsapp_image_2026-03-26_at_2.18.04_am.jpeg",
-    "name": "Hack-Your-Way",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-15",
-      "start": "2026-04-07"
-    },
-    "desc": "Alvas Institute of Engineering and Technology, Mangalore, Karnataka",
-    "link": "https://unstop.com/hackathons/xypheria-2026-national-level-24-hours-hackathon-alvas-institute-of-engineering-and-technology-mangalore-karna-1671706",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d4aabb0180f_white_logo_on_black.jpg.jpeg",
-    "name": "XYPHERIA 2026 \u2013 National Level 24 Hours Hackathon",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-10"
-    },
-    "desc": "MVSR Engineering College (MVSREC), Hyderabad",
-    "link": "https://unstop.com/hackathons/national-level-hackathon-aethronix-2026-samavarthan-2026-mvsr-engineering-college-mvsrec-hyderabad-1672835",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d69f71b4ca5_mvsr_logo.jpg",
-    "name": "National Level Hackathon \u2013 Aethronix 2026",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-22",
-      "start": "2026-04-08"
-    },
-    "desc": "Government College of Engineering and Technology, Jammu",
-    "link": "https://unstop.com/hackathons/project-dev-government-college-of-engineering-and-technology-jammu-1672725",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d672d0ab6e7_unknown.png",
-    "name": "Project Dev",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-22",
-      "start": "2026-04-08"
-    },
-    "desc": "Crowdera Foundation",
-    "link": "https://unstop.com/hackathons/crowdera-uiux-hackathon-2026-crowdera-foundation-1672568",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69d641d143ce3_organisation_image-gUKCfNRMIo789637330aycufaoZaS.png",
-    "name": "Crowdera UI/UX Hackathon 2026",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-20",
-      "start": "2026-04-04"
-    },
-    "desc": "Indian Institute of Information Technology (IIIT), Pune",
-    "link": "https://unstop.com/hackathons/lockout-1v1-competitive-programming-tournament-iconclave-x-e-summit-2k26-indian-institute-of-information-tech-1670291",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69cffb1de4687_logo_bg_11zon.png",
-    "name": "Lockout - 1v1 Competitive Programming Tournament",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-07"
-    },
-    "desc": "MVSR Engineering College (MVSREC), Hyderabad",
-    "link": "https://unstop.com/hackathons/algorithmic-relay-samavarthan-2026-mvsr-engineering-college-mvsrec-hyderabad-1672219",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d547a800591_mvsreclogo-removebg-preview.png",
-    "name": "Algorithmic Relay",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-17",
-      "start": "2026-04-07"
-    },
-    "desc": "MVSR Engineering College (MVSREC), Hyderabad",
-    "link": "https://unstop.com/hackathons/bug-fixing-challenge-samavarthan-2026-mvsr-engineering-college-mvsrec-hyderabad-1672120",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d7b3afda625_bug_logo.png",
-    "name": "BUGSUGI (Bug Fixing Challenge)",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-17",
-      "start": "2026-04-07"
-    },
-    "desc": "MVSR Engineering College (MVSREC), Hyderabad",
-    "link": "https://unstop.com/hackathons/codexa-samavarthan-2026-mvsr-engineering-college-mvsrec-hyderabad-1671939",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d6945664a39_3.png",
-    "name": "CODEXA",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-25",
+      "end": "2026-05-30",
       "start": "2026-04-02"
     },
     "desc": "Cambridge Institute of Technology North Campus, Bengaluru",
@@ -1249,33 +1197,7 @@
   },
   {
     "date": {
-      "end": "2026-04-14",
-      "start": "2026-04-06"
-    },
-    "desc": "Shri Vile Parle Kelavani Mandal's Dwarkadas J. Sanghvi College of Engineering (DJSCE), Mumbai",
-    "link": "https://unstop.com/hackathons/syn3rgy-30-shri-vile-parle-kelavani-mandals-dwarkadas-j-sanghvi-college-of-engineering-djsce-mumbai-1671237",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d399e082525_whatsapp_image_2026-04-05_at_9.23.31_pm.jpeg",
-    "name": "SYN3RGY 3.0",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-24",
-      "start": "2026-04-07"
-    },
-    "desc": "Lovely Professional University (LPU), Punjab",
-    "link": "https://unstop.com/hackathons/aetherax-lovely-professional-university-lpu-punjab-1670944",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d3d2717dd3e_1000080449.png",
-    "name": "AetheraX",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
+      "end": "2026-06-30",
       "start": "2026-04-06"
     },
     "desc": "National Institute of Technology (NIT), Delhi",
@@ -1288,323 +1210,37 @@
   },
   {
     "date": {
-      "end": "2026-04-30",
-      "start": "2026-04-05"
+      "end": "2026-07-15",
+      "start": "2026-03-31"
     },
-    "desc": "Droidecks",
-    "link": "https://unstop.com/hackathons/hackorbit-2026-droidecks-1670801",
+    "desc": "EduLinkUp",
+    "link": "https://unstop.com/hackathons/summer-of-code-2026-edulinkup-1664587",
     "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d25367e2e3c_logo.png",
-    "name": "HackOrbit 2026 (Hackathon)",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69c3f7d3b98e1_elusoc_square.jpeg",
+    "name": "Summer of Code 2026",
     "source": "unstop",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-04-17",
-      "start": "2026-04-06"
+      "end": "2026-05-28",
+      "start": "2026-04-02"
     },
-    "desc": "Indian Institute of Information Technology (IIIT), Allahabad",
-    "link": "https://unstop.com/hackathons/cybergeek-ctf-2026-geekcamp-x-aparoksha26-indian-institute-of-information-technology-iiit-allahabad-1671019",
+    "desc": "Codorra",
+    "link": "https://unstop.com/hackathons/hackathon-2026-codorra-1669522",
     "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d2c2efd57d6_geekhaven_logo.png",
-    "name": "CyberGeek - CTF 2026",
+    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69f9882484763_organisation_image-mGwRs38hAd512964992m5jDp05Tqi.png",
+    "name": "Codorra 2026",
     "source": "unstop",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-04-17",
-      "start": "2026-04-06"
-    },
-    "desc": "Indian Institute of Information Technology (IIIT), Allahabad",
-    "link": "https://unstop.com/hackathons/cicada-geekcamp-x-aparoksha26-indian-institute-of-information-technology-iiit-allahabad-1671017",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d2bfffce0a3_geekhaven_logo.png",
-    "name": "Cicada",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-20",
-      "start": "2026-04-06"
-    },
-    "desc": "Indian Institute of Information Technology (IIIT), Allahabad",
-    "link": "https://unstop.com/hackathons/gamejam-geekcamp-x-aparoksha26-indian-institute-of-information-technology-iiit-allahabad-1671000",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d2b570d0400_geekhaven_logo.png",
-    "name": "GameJam",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-25",
-      "start": "2026-04-05"
-    },
-    "desc": "Noida Institute of Engineering And Technology (NIET), Greater Noida",
-    "link": "https://unstop.com/hackathons/hack-on-titan-noida-institute-of-engineering-and-technology-niet-greater-noida-1670716",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d22814d0acc_file.jpg",
-    "name": "Hack on Titan",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-29",
-      "start": "2026-04-05"
-    },
-    "desc": "EthAum Venture Partners",
-    "link": "https://unstop.com/hackathons/building-healthcare-mvps-using-ai-ethaum-venture-partners-1670754",
-    "location": "virtual",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/69d243ce7f5a9_organisation_image-KdC0oLJrfQ1079737855rZ9OBfrkir.png",
-    "name": "Building Healthcare MVPs using AI",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-21",
-      "start": "2026-04-05"
-    },
-    "desc": "S.I.E.S College of Management Studies (SIES), Mumbai",
-    "link": "https://unstop.com/hackathons/uiux-solo-design-challenge-sies-college-of-management-studies-sies-mumbai-1670699",
-    "location": "in_person",
-    "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69d20a9a82e74_untitled_design__1___1_.png",
-    "name": "UI/UX Solo Design Challenge || Pixels 2026",
-    "source": "unstop",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-16"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/codesriijan",
-    "location": "in_person",
-    "logo": "",
-    "name": "CODESRIIJAN - National Hackathon on AI for Bharat",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-18"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/hack-in-github-devdays",
-    "location": "in_person",
-    "logo": "",
-    "name": "Hack in GitHub DevDays",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-24",
-      "start": "2026-04-24"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/framework",
-    "location": "in_person",
-    "logo": "",
-    "name": "Build with Framework 1.0",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-23",
-      "start": "2026-04-22"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/cepheus-2",
-    "location": "in_person",
-    "logo": "",
-    "name": "Cepheus 2.0",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-11"
-    },
-    "desc": "FinTech, AI/ML",
-    "link": "https://devfolio.co/hackathons/paygentic-week1",
-    "location": "virtual",
-    "logo": "https://assets.devfolio.co/content/aa57912269044a0eb95f17f6d31e10bf/ff403782-f110-4fb0-8446-82cb7c75da0a.png",
-    "name": "Locus' Paygentic Hackathon - #1",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-16"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/hackitbvp-2",
-    "location": "in_person",
-    "logo": "",
-    "name": "Hack.IT@BVP3.0",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-24",
-      "start": "2026-04-24"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/push-to-prod",
-    "location": "in_person",
-    "logo": "https://assets.devfolio.co/content/030b041535514a4db9321a346b6551d0/c54b66c4-42e6-4875-9f69-eba709c284c1.jpeg",
-    "name": "Push to Prod Hackathon with Genspark & Claude",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-10",
-      "start": "2026-05-08"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/nmithacks26",
-    "location": "in_person",
-    "logo": "",
-    "name": "NMIT HACKS 2026",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-30",
-      "start": "2026-04-29"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/hack-hustle",
-    "location": "in_person",
-    "logo": "",
-    "name": "HACK HUSTLE 2.0",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-02",
-      "start": "2026-04-20"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/susegad-sprint",
-    "location": "in_person",
-    "logo": "",
-    "name": "Susegad Sprint 2026",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-25",
-      "start": "2026-04-24"
-    },
-    "desc": "Blockchain, AI/ML, IoT/Hardware",
-    "link": "https://devfolio.co/hackathons/inout2026",
-    "location": "in_person",
-    "logo": "",
-    "name": "InOut2k26",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-25"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/rotatech-x",
-    "location": "in_person",
-    "logo": "",
-    "name": "Rota-Tech X",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-27",
-      "start": "2026-04-22"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/hackandchill--3",
-    "location": "in_person",
-    "logo": "",
-    "name": "Hack&Chill3.0",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-01",
-      "start": "2026-04-30"
-    },
-    "desc": "Blockchain, AI/ML, IoT/Hardware",
-    "link": "https://devfolio.co/hackathons/altaria",
-    "location": "in_person",
-    "logo": "",
-    "name": "Altaria",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-25",
-      "start": "2026-04-24"
-    },
-    "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/athernex",
-    "location": "in_person",
-    "logo": "",
-    "name": "Athernex",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-21",
-      "start": "2026-04-13"
-    },
-    "desc": "Blockchain",
-    "link": "https://devfolio.co/hackathons/scbc-hackathon",
-    "location": "virtual",
-    "logo": "",
-    "name": "SCBC Hackathon 2026",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-23",
-      "start": "2026-04-18"
-    },
-    "desc": "FinTech, AI/ML",
-    "link": "https://devfolio.co/hackathons/paygentic-week2",
-    "location": "virtual",
-    "logo": "",
-    "name": "Locus' Paygentic Hackathon - #2",
-    "source": "devfolio",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-23",
+      "end": "2026-05-30",
       "start": "2026-03-07"
     },
     "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/synchronicity-s-2",
+    "link": "https://synchronicity-s-2.devfolio.co",
     "location": "in_person",
     "logo": "",
     "name": "Synchronicity S2.0",
@@ -1613,27 +1249,105 @@
   },
   {
     "date": {
-      "end": "2026-04-30",
-      "start": "2026-04-25"
+      "end": "2026-07-26",
+      "start": "2026-07-25"
     },
-    "desc": "FinTech, AI/ML",
-    "link": "https://devfolio.co/hackathons/paygentic-week3",
-    "location": "virtual",
+    "desc": "No Restrictions",
+    "link": "https://innofusion-3.devfolio.co",
+    "location": "in_person",
     "logo": "",
-    "name": "Locus' Paygentic Hackathon - #3",
+    "name": "InnoFusion 3.0",
     "source": "devfolio",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-04-28",
-      "start": "2026-02-17"
+      "end": "2026-06-13",
+      "start": "2026-06-13"
     },
     "desc": "No Restrictions",
-    "link": "https://devfolio.co/hackathons/base-batches-student-track-3",
+    "link": "https://hackprix-2026.devfolio.co",
     "location": "in_person",
-    "logo": "https://assets.devfolio.co/content/aa57912269044a0eb95f17f6d31e10bf/62788e1c-2cda-4544-96c9-bd2f19ccf816.png",
-    "name": "Base Batches 003: Student Track",
+    "logo": "",
+    "name": "HackPrix Season 3",
+    "source": "devfolio",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-13",
+      "start": "2026-06-11"
+    },
+    "desc": "No Restrictions",
+    "link": "https://deerhack26.devfolio.co",
+    "location": "in_person",
+    "logo": "",
+    "name": "DeerHack 2026",
+    "source": "devfolio",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-28",
+      "start": "2026-06-27"
+    },
+    "desc": "No Restrictions",
+    "link": "https://hexafalls2.devfolio.co",
+    "location": "in_person",
+    "logo": "",
+    "name": "HexaFalls 2",
+    "source": "devfolio",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-06-27",
+      "start": "2026-01-09"
+    },
+    "desc": "No Restrictions",
+    "link": "https://hackrent.devfolio.co",
+    "location": "virtual",
+    "logo": "",
+    "name": "Rentits Global Hackathon 2026",
+    "source": "devfolio",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-07-11",
+      "start": "2026-07-11"
+    },
+    "desc": "No Restrictions",
+    "link": "https://citadel-hackathon.devfolio.co",
+    "location": "in_person",
+    "logo": "",
+    "name": "Citadel Hackathon - Season 1",
+    "source": "devfolio",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-08-14",
+      "start": "2026-07-17"
+    },
+    "desc": "No Restrictions",
+    "link": "https://rns-hackoverflow-2.devfolio.co",
+    "location": "in_person",
+    "logo": "",
+    "name": "RNS Hack_Overflow 2.0",
+    "source": "devfolio",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-19",
+      "start": "2026-05-06"
+    },
+    "desc": "FinTech, AI/ML",
+    "link": "https://paygentic-week4.devfolio.co",
+    "location": "virtual",
+    "logo": "https://assets.devfolio.co/content/aa57912269044a0eb95f17f6d31e10bf/1fc55ac7-eeac-4eff-89ec-40037f0d5f8f.png",
+    "name": "Locus' Paygentic Hackathon - #4",
     "source": "devfolio",
     "status": "open"
   },
@@ -1643,11 +1357,50 @@
       "start": null
     },
     "desc": "HackerEarth",
-    "link": "https://www.hackerearth.com/challenges/hackathon/ai-for-bharat-2/",
-    "location": "in_person",
-    "logo": "https://media.hackerearth.com/media/hackathon/ai-for-namma-karnataka-hackathon-2/images/cbbecdbd34-cover_2646421.png",
-    "name": "AI for Bharat",
+    "link": "https://www.hackerearth.com/challenges/hackathon/microsoft-build-ai-2027/",
+    "location": "virtual",
+    "logo": "",
+    "name": "Microsoft Build AI",
     "source": "hackerearth",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "HackerEarth",
+    "link": "https://www.hackerearth.com/challenges/hackathon/sukaksha-cyber-hackathon-2/",
+    "location": "virtual",
+    "logo": "https://media.hackerearth.com/media/hackathon/sukaksha-cyber-hackathon-2/images/6cb9d13543-Suraksha_banner_updated.png",
+    "name": "SuRaksha Cyber Hackathon 2.0",
+    "source": "hackerearth",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "DoraHacks",
+    "link": "https://dorahacks.io/hackathon/the-bags-hackathon",
+    "location": "in_person",
+    "logo": "https://cdn.dorahacks.io/static/files/19e01e5410f2e25414cbc1d4c2b99e74.jpeg@128h.webp",
+    "name": "The Bags Hackathon",
+    "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "and introduces a Human vs. AI mechanism across six tracks:",
+    "link": "https://dorahacks.io/hackathon/mantleturingtesthackathon2026",
+    "location": "in_person",
+    "logo": "https://cdn.dorahacks.io/static/files/19dd99b48589fc2e7ef7ac74c76966dc.jpg",
+    "name": "The Turing Test Hackathon 2026",
+    "source": "dorahacks",
     "status": "open"
   },
   {
@@ -1668,50 +1421,11 @@
       "end": null,
       "start": null
     },
-    "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/the-bags-hackathon",
-    "location": "in_person",
-    "logo": "https://cdn.dorahacks.io/static/files/19cf793658e6f9c92bd95ad479084368.png@128h.webp",
-    "name": "The Bags Hackathon",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-15",
-      "start": "2026-03-10"
-    },
-    "desc": "40,000 USD",
-    "link": "https://dorahacks.io/hackathon/2045",
-    "location": "in_person",
-    "logo": "https://cdn.dorahacks.io/static/files/19d322da4e3c209be0c84a449a9a9c74.jpeg",
-    "name": "HashKey Chain Horizon Hackathon",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/bnbcollegedition",
-    "location": "virtual",
-    "logo": "https://cdn.dorahacks.io/static/files/19c2e4f7c40f615784e5e0d4fc2a7cce.jpeg",
-    "name": "BNB Hack: US College Edition",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/openclawhack",
+    "desc": "to be announced** 5 Phases \u00b7 5-week online sprint \u00b7 3 Tracks \u00b7 20+ LATAM funds",
+    "link": "https://dorahacks.io/hackathon/ethmexico2026bitso",
     "location": "in_person",
     "logo": "",
-    "name": "\ud83e\udd9e OpenClaw Hack Toronto Students: AI Agents & Payments",
+    "name": "Ethereum Mexico 2026 - AI x Blockchain | w/ Bitso",
     "source": "dorahacks",
     "status": "open"
   },
@@ -1720,24 +1434,24 @@
       "end": null,
       "start": null
     },
-    "desc": "of **2 million RMB**, winners will share the rewards and receive official honorary certificates from the organizers. We cordially invite AI algorithm and system engineers, hardware and compiler developers, as well as all technical practitioners and visionaries dedicated to overcoming the complexities of AI chip programming to join this challenge and collectively advance the thriving development of open computing ecosystem.",
-    "link": "https://dorahacks.io/hackathon/flagos-open-computing",
+    "desc": "DoraHacks",
+    "link": "https://dorahacks.io/hackathon/portaldot-online-s1",
     "location": "in_person",
-    "logo": "https://cdn.dorahacks.io/static/files/19c07eaa632e0027878d85a4fd4a49fc.png",
-    "name": "FlagOS Open Computing Global Challenge",
+    "logo": "",
+    "name": "Portaldot Online Mini Hackathon S1",
     "source": "dorahacks",
     "status": "open"
   },
   {
     "date": {
-      "end": "2026-11-01",
-      "start": "2026-02-27"
+      "end": null,
+      "start": null
     },
-    "desc": "50,000 USD",
-    "link": "https://dorahacks.io/hackathon/mdba-youth",
-    "location": "virtual",
-    "logo": "https://cdn.dorahacks.io/static/files/19b7eddb1b9a0519b52f83c4fa6a096a.jpg",
-    "name": "MDBA Youth Blockchain Hackathon",
+    "desc": "DoraHacks",
+    "link": "https://dorahacks.io/hackathon/syntra",
+    "location": "in_person",
+    "logo": "",
+    "name": "From Prompt to Product: The Syntra Hackathon",
     "source": "dorahacks",
     "status": "open"
   },
@@ -1756,14 +1470,27 @@
   },
   {
     "date": {
+      "end": "2026-11-01",
+      "start": "2026-05-15"
+    },
+    "desc": "50,000 USD",
+    "link": "https://dorahacks.io/hackathon/1904",
+    "location": "virtual",
+    "logo": "https://cdn.dorahacks.io/static/files/19ba9c2f910953853b3553f4a178a20c.jpg",
+    "name": "BLI Legal Tech Hackathon 2",
+    "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
       "end": null,
       "start": null
     },
-    "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/codequity-x-blockchains",
+    "desc": "is designed to reward the most impactful solutions across our three core pillars. By participating, you are competing for a share of **$1,000** in cash prizes, distributed to the top three standout projects that demonstrate the highest potential for real-world impact in Ghana.",
+    "link": "https://dorahacks.io/hackathon/hackathon2026challenge",
     "location": "in_person",
-    "logo": "",
-    "name": "48 Weeks. 48 Blockchains.",
+    "logo": "https://cdn.dorahacks.io/static/files/19c7b0f2b4ac692ac96521e479c87260.jpg",
+    "name": "Hackathon 2026 Challenge",
     "source": "dorahacks",
     "status": "open"
   },
@@ -1773,23 +1500,75 @@
       "start": null
     },
     "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/raise-26",
+    "link": "https://dorahacks.io/hackathon/eth-quantum-hackathon-2026",
+    "location": "in_person",
+    "logo": "",
+    "name": "Eth Quantum Hackathon 2026",
+    "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-11-01",
+      "start": "2026-02-27"
+    },
+    "desc": "50,000 USD",
+    "link": "https://dorahacks.io/hackathon/mdba-youth",
+    "location": "virtual",
+    "logo": "https://cdn.dorahacks.io/static/files/19b7eddb1b9a0519b52f83c4fa6a096a.jpg",
+    "name": "MDBA Youth Blockchain Hackathon",
+    "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "details to be announced)",
+    "link": "https://dorahacks.io/hackathon/2019",
+    "location": "in_person",
+    "logo": "",
+    "name": "MunichTech Innovation Hackathon 2026 \u2013 Build Applied solutions for Industry",
+    "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "of **2 million RMB**, winners will share the rewards and receive official honorary certificates from the organizers. We cordially invite AI algorithm and system engineers, hardware and compiler developers, as well as all technical practitioners and visionaries dedicated to overcoming the complexities of AI chip programming to join this challenge and collectively advance the thriving development of open computing ecosystem.",
+    "link": "https://dorahacks.io/hackathon/flagos-open-computing",
+    "location": "in_person",
+    "logo": "https://cdn.dorahacks.io/static/files/19c07eaa632e0027878d85a4fd4a49fc.png",
+    "name": "FlagOS Open Computing Global Challenge",
+    "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "DoraHacks",
+    "link": "https://dorahacks.io/hackathon/watsoncodefest2026",
+    "location": "in_person",
+    "logo": "",
+    "name": "Watson Code Fest 2026",
+    "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "& Distribution",
+    "link": "https://dorahacks.io/hackathon/nba-prediction-market",
     "location": "virtual",
     "logo": "",
-    "name": "RAISE-26: Mirror, Mirror On The Wall, Is AI Transforming Us All?",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/pacifica",
-    "location": "in_person",
-    "logo": "https://cdn.dorahacks.io/static/files/19d7a84c808bac011696d6b4eaa85cde.png",
-    "name": "Pacifica Hackathon",
+    "name": "NBA Playoffs Prediction Market Hackathon",
     "source": "dorahacks",
     "status": "open"
   },
@@ -1812,10 +1591,23 @@
       "start": null
     },
     "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/syntra",
+    "link": "https://dorahacks.io/hackathon/satnav",
+    "location": "virtual",
+    "logo": "",
+    "name": "GNSS 4 Disaster Risk Reduction (G4D-RR) Hackathon",
+    "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "*   **$430 in cash prizes**",
+    "link": "https://dorahacks.io/hackathon/hackowasp8",
     "location": "in_person",
     "logo": "",
-    "name": "From Prompt to Product: The Syntra Hackathon",
+    "name": "HACKOWASP 8.0",
     "source": "dorahacks",
     "status": "open"
   },
@@ -1824,24 +1616,11 @@
       "end": null,
       "start": null
     },
-    "desc": "is designed to reward the most impactful solutions across our three core pillars. By participating, you are competing for a share of **$1,000** in cash prizes, distributed to the top three standout projects that demonstrate the highest potential for real-world impact in Ghana.",
-    "link": "https://dorahacks.io/hackathon/hackathon2026challenge",
-    "location": "in_person",
-    "logo": "https://cdn.dorahacks.io/static/files/19c7b0f2b4ac692ac96521e479c87260.jpg",
-    "name": "Hackathon 2026 Challenge",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-11-01",
-      "start": "2026-05-15"
-    },
-    "desc": "50,000 USD",
-    "link": "https://dorahacks.io/hackathon/1904",
+    "desc": "DoraHacks",
+    "link": "https://dorahacks.io/hackathon/oxloai",
     "location": "virtual",
-    "logo": "https://cdn.dorahacks.io/static/files/19ba9c2f910953853b3553f4a178a20c.jpg",
-    "name": "BLI Legal Tech Hackathon 2",
+    "logo": "",
+    "name": "Oxloai",
     "source": "dorahacks",
     "status": "open"
   },
@@ -1850,76 +1629,24 @@
       "end": null,
       "start": null
     },
-    "desc": "Total Prize Pool: **1500 USD**",
+    "desc": "DoraHacks",
+    "link": "https://dorahacks.io/hackathon/stellar-agents-x402-stripe-mpp",
+    "location": "virtual",
+    "logo": "",
+    "name": "Stellar Agents X402 Stripe Mpp",
+    "source": "dorahacks",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": null,
+      "start": null
+    },
+    "desc": "DoraHacks",
     "link": "https://dorahacks.io/hackathon/vibe-coding-iexec",
-    "location": "in_person",
-    "logo": "",
-    "name": "iExec Vibe Coding Challenge",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/2097",
     "location": "virtual",
     "logo": "",
-    "name": "Actian VectorAI DB Build Challenge",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-05-03",
-      "start": "2026-04-04"
-    },
-    "desc": "3,000 USD",
-    "link": "https://dorahacks.io/hackathon/boring-ai",
-    "location": "virtual",
-    "logo": "https://cdn.dorahacks.io/static/files/19cf8d094bb0eb24eaad8fe42c385c45.png",
-    "name": "Boring AI",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/liquify",
-    "location": "virtual",
-    "logo": "",
-    "name": "Liquify",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/hack-series-3",
-    "location": "virtual",
-    "logo": "",
-    "name": "Hack Series 3",
-    "source": "dorahacks",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": null,
-      "start": null
-    },
-    "desc": "DoraHacks",
-    "link": "https://dorahacks.io/hackathon/2019",
-    "location": "virtual",
-    "logo": "",
-    "name": "2019",
+    "name": "Vibe Coding Iexec",
     "source": "dorahacks",
     "status": "open"
   },
@@ -1938,364 +1665,13 @@
   },
   {
     "date": {
-      "end": "2026-04-16",
-      "start": "2026-04-10"
-    },
-    "desc": "MLH",
-    "link": "https://events.mlh.io/events/13558-global-hack-week-api",
-    "location": "virtual",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019bb2af-79c9-ed8a-8294-1a9a7a96ed16/global-hack-week-api_c815d30b3542_medium.jpg",
-    "name": "Global Hack Week: API",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-17"
-    },
-    "desc": "MLH",
-    "link": "https://hackathon.fif-uaq.mx/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b82-8a30-866f-468b-3cfc8bbc1e5a/hackathon-troyano-2026_83b8a0f69450_medium.png",
-    "name": "Hackathon Troyano 2026",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-17"
-    },
-    "desc": "MLH",
-    "link": "https://events.mlh.io/events/13503-ai-hackfest",
-    "location": "virtual",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019b955e-fc3f-07c5-a03f-b69ada273832/ai-hackfest-9a_e2f933932ec5_medium.jpg",
-    "name": "AI Hackfest",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-17"
-    },
-    "desc": "MLH",
-    "link": "https://hackmesa.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019d20cf-c5ee-6222-eca8-091173565c6d/hackmesa-2-0_867cfb3b5881_medium.png",
-    "name": "HACKMESA 2.0",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-18",
-      "start": "2026-04-17"
-    },
-    "desc": "MLH",
-    "link": "https://www.marihacks.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b8c-e7d0-e4c9-181b-b21b6bda0786/marihacks-c5_e2157ec3a1ae_medium.png",
-    "name": "MariHacks",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-17"
-    },
-    "desc": "MLH",
-    "link": "https://www.starkhacks.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c4cfa-fd55-b6c9-a537-0365b7a973e1/starkhacks_7413fbafc6b5_medium.png",
-    "name": "StarkHacks",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-17"
-    },
-    "desc": "MLH",
-    "link": "https://www.hackprinceton.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b86-fab6-3e64-3ae8-3f9036c918c5/hackprinceton-spring-2026_c5a8a1f7bf34_medium.png",
-    "name": "HackPrinceton Spring 2026",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-17"
-    },
-    "desc": "MLH",
-    "link": "https://the-hackku.github.io/hackku26_website/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c9beb-97dd-b30b-904c-510a8d381eb5/hackku-e5_0041601cdec5_medium.png",
-    "name": "HackKU",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-18"
-    },
-    "desc": "MLH",
-    "link": "https://www.citrushack.com",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c96ee-4436-a0b6-ce33-d4b71d3d5021/citrus-hack-02_9d6a8aa2cb1b_medium.png",
-    "name": "Citrus Hack",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-18"
-    },
-    "desc": "MLH",
-    "link": "https://datahacks.ds3ucsd.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c77ef-6f24-d299-d36c-dae6d0ab7c91/datahacks_53a1a4d8aeba_medium.png",
-    "name": "DataHacks",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-18"
-    },
-    "desc": "MLH",
-    "link": "https://hackkosice.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c4963-a43f-53e5-7823-0ef36c6e6b78/hack-kosice-22_84dcf97a1ec3_medium.png",
-    "name": "Hack Kosice",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-18"
-    },
-    "desc": "MLH",
-    "link": "https://georgehacks.org/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/logos/events/019c9b6a-61ef-a224-231b-00f5ca59912a/george-hacks-health-hackathon-2026_483fd1848344_small.png",
-    "name": "George Hacks Health Hackathon 2026",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-18"
-    },
-    "desc": "MLH",
-    "link": "https://www.hookemhacks.com",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019cb59e-693d-ffdc-65bb-6cb5f80cbb71/hook-em-hacks_06f458a5dc42_medium.png",
-    "name": "Hook 'Em Hacks",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-18"
-    },
-    "desc": "MLH",
-    "link": "https://dragonhack.si/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019caea3-79c4-44bf-4b71-cacef2837b71/dragonhack-2026_435f8e3138ff_medium.jpeg",
-    "name": "Dragonhack 2026",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-18"
-    },
-    "desc": "MLH",
-    "link": "https://www.cs.oswego.edu/lakerhacks/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019caedd-6e6b-9958-beb3-513047cabb75/lakerhacks_a417a9bcf40e_medium.jpg",
-    "name": "LakerHacks",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-18"
-    },
-    "desc": "MLH",
-    "link": "https://victorhacks.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c9fc3-dded-d1c7-cd90-224cabb9f03a/victor-hacks-11_4d6027ca9fb9.svg",
-    "name": "Victor Hacks",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-19",
-      "start": "2026-04-18"
-    },
-    "desc": "MLH",
-    "link": "https://fullyhacks.acmcsuf.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b87-b92a-d5b0-6d9d-3e4efcf0d890/fullyhacks_dd9b458c7925_medium.png",
-    "name": "FullyHacks",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-24"
-    },
-    "desc": "MLH",
-    "link": "https://uwbhacks.com",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b86-280e-32fd-1abc-7ca4c8ad2461/uwb-hacks-26-the-future_17065d54e531_medium.png",
-    "name": "UWB Hacks 26: The Future!",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-24"
-    },
-    "desc": "MLH",
-    "link": "https://lahacks.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019ab732-c299-f099-0da7-c6a2c7ca2979/la-hacks-b3_c39625b3c2cb_medium.png",
-    "name": "LA Hacks",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-24"
-    },
-    "desc": "MLH",
-    "link": "https://hackupc.com",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c0f74-c95e-c774-8714-85018b12d414/hackupc-31_90d2fdbcbdc7_medium.png",
-    "name": "HackUPC",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-24"
-    },
-    "desc": "MLH",
-    "link": "https://hack.caltech.edu",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019be0eb-d05a-a9f3-9989-0fa0b6b403a1/hacktech-7d_732a612ff512_medium.png",
-    "name": "Hacktech",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-24"
-    },
-    "desc": "MLH",
-    "link": "https://www.bearhacks.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b97-fed5-7148-03ea-4b58e06a0449/bearhacks-2026_9b68406d9997_medium.png",
-    "name": "BearHacks 2026",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-25"
-    },
-    "desc": "MLH",
-    "link": "https://www.broncohacks.org/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c9b94-a205-61bd-61cd-af21e813fd80/broncohacks-2026_b5dd4627bfc6_medium.png",
-    "name": "BroncoHacks 2026",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-25"
-    },
-    "desc": "MLH",
-    "link": "https://hack.arizona.edu/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019ca12e-9b44-a623-bd5f-fb283da0b5fb/hack-arizona-b3_1ce49cd65eaa_medium.jpeg",
-    "name": "Hack Arizona",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-25"
-    },
-    "desc": "MLH",
-    "link": "https://www.keanuhackthis.com/",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c715e-f7dc-3084-aa53-d3595c4ac0a5/keanuhackthis_ff3e17fc9b2f_medium.png",
-    "name": "KeanUHackThis",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-26",
-      "start": "2026-04-25"
-    },
-    "desc": "MLH",
-    "link": "https://www.hackabull.com",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c1ee3-3836-2846-1032-2def66fbad63/hackabull-vii_7eb764940a8b_medium.png",
-    "name": "Hackabull VII",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
-      "end": "2026-04-30",
-      "start": "2026-04-28"
-    },
-    "desc": "MLH",
-    "link": "https://conhacks.io",
-    "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019ce838-8a52-09d4-141f-97eea359503c/conhacks-2026-a1_7f82eb69f6b5_medium.png",
-    "name": "ConHacks 2026",
-    "source": "mlh",
-    "status": "open"
-  },
-  {
-    "date": {
       "end": "2026-05-14",
       "start": "2026-05-08"
     },
     "desc": "MLH",
-    "link": "https://organize.mlh.io/events/13816-global-hack-week-genai",
+    "link": "https://events.mlh.io/events/13816-global-hack-week-genai",
     "location": "virtual",
-    "logo": "",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c6b2f-e735-d114-2328-fef1b1d131f1/global-hack-week-genai-25_e744216465c1_medium.png",
     "name": "Global Hack Week: GenAI",
     "source": "mlh",
     "status": "open"
@@ -2308,7 +1684,7 @@
     "desc": "MLH",
     "link": "https://nmithacks.com",
     "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019d0241-1b0e-b9d0-dd18-f5e70fd82f59/nmit-hacks-99_818238d73996_medium.png",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019d0241-1b0e-b9d0-dd18-f5e70fd82f59/nmit-hacks-99_61d0b0b52852_medium.png",
     "name": "NMIT Hacks",
     "source": "mlh",
     "status": "open"
@@ -2321,7 +1697,7 @@
     "desc": "MLH",
     "link": "https://hackdavis.io/",
     "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019cbf0c-afa1-c29a-7aeb-3d6b32caf9c9/hackdavis-2026-hackathon_1199daa38b8e_medium.png",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019cbf0c-afa1-c29a-7aeb-3d6b32caf9c9/hackdavis-2026-hackathon_b770c1824e2d_medium.png",
     "name": "HackDavis 2026 Hackathon",
     "source": "mlh",
     "status": "open"
@@ -2334,7 +1710,7 @@
     "desc": "MLH",
     "link": "https://www.interhackbcn.com",
     "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019d453b-39a2-3300-54af-668ce96f38a1/interhack-bcn_90a45a17871e_medium.png",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019d453b-39a2-3300-54af-668ce96f38a1/interhack-bcn_239d99ac7681_medium.png",
     "name": "INTERHACK BCN",
     "source": "mlh",
     "status": "open"
@@ -2347,8 +1723,21 @@
     "desc": "MLH",
     "link": "https://masseyhacks.ca",
     "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019ce801-4e63-8038-f04e-40b894cb9d96/masseyhacks-c5_dc0352a410e0_medium.png",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019ce801-4e63-8038-f04e-40b894cb9d96/masseyhacks-c5_c9ee3b51c7d4_medium.png",
     "name": "MasseyHacks",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-10",
+      "start": "2026-05-09"
+    },
+    "desc": "MLH",
+    "link": "https://www.kenthackit.co.uk/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c1f0a-cb56-3e66-0e40-a402f7393e3c/kenthackit_57e0e9cddb07_medium.jpg",
+    "name": "KentHackIt",
     "source": "mlh",
     "status": "open"
   },
@@ -2360,7 +1749,7 @@
     "desc": "MLH",
     "link": "https://events.mlh.io",
     "location": "virtual",
-    "logo": "",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019d6d87-3ca5-4479-a22a-5f0746b746ac/midnight-hackathon-88_3f21e7860a94_medium.png",
     "name": "Midnight Hackathon",
     "source": "mlh",
     "status": "open"
@@ -2373,7 +1762,7 @@
     "desc": "MLH",
     "link": "https://www.designverseucr.org/",
     "location": "in_person",
-    "logo": "https://mlhusercontent.com/logos/events/019d6d42-43e1-084d-719f-a82d76d05e3e/designverse_bf90866af3bd_small.png",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019d6d42-43e1-084d-719f-a82d76d05e3e/designverse_507e03fd8b03_medium.png",
     "name": "DesignVerse",
     "source": "mlh",
     "status": "open"
@@ -2386,8 +1775,34 @@
     "desc": "MLH",
     "link": "https://hackhcc.org/",
     "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019c2ada-db7c-5c90-932d-cffd4d5b2322/hackhcc_832ded26fea0_medium.png",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019c2ada-db7c-5c90-932d-cffd4d5b2322/hackhcc_e032cc99d86d_medium.png",
     "name": "HackHCC",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-31",
+      "start": "2026-05-30"
+    },
+    "desc": "MLH",
+    "link": "https://www.quackhacks.org/",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/logos/events/019d6d2c-5bf0-c63f-65a5-427f7d5d738f/quackhacks-3_9d9a45fc1f47_small.png",
+    "name": "Quackhacks 3",
+    "source": "mlh",
+    "status": "open"
+  },
+  {
+    "date": {
+      "end": "2026-05-31",
+      "start": "2026-05-30"
+    },
+    "desc": "MLH",
+    "link": "https://mpchacks.com",
+    "location": "in_person",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019db599-5391-0d51-917c-8c9f09201872/mpc-hacks_ab4d9fa9d9c1_medium.png",
+    "name": "MPC Hacks",
     "source": "mlh",
     "status": "open"
   },
@@ -2399,7 +1814,7 @@
     "desc": "MLH",
     "link": "https://jamhacks.ca",
     "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019cfd94-9ee5-01a0-405f-860fdd615be4/jamhacks-10_dd664d5752cb_medium.png",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019cfd94-9ee5-01a0-405f-860fdd615be4/jamhacks-10_0a727123ae6e_medium.png",
     "name": "JAMHacks 10",
     "source": "mlh",
     "status": "open"
@@ -2412,7 +1827,7 @@
     "desc": "MLH",
     "link": "https://s3.hackprix.tech/",
     "location": "in_person",
-    "logo": "https://mlhusercontent.com/backgrounds/events/019d2aac-b0a8-c5b0-e511-c98596bd4bad/hackprix-season-3_22b1f4cc1ec8_medium.png",
+    "logo": "https://mlhusercontent.com/backgrounds/events/019d2aac-b0a8-c5b0-e511-c98596bd4bad/hackprix-season-3_4f2843dca272_medium.png",
     "name": "HackPrix Season 3",
     "source": "mlh",
     "status": "open"
