@@ -3,9 +3,64 @@ import html
 import json
 import re
 from datetime import datetime, timezone
+from typing import Optional
 from urllib.parse import urlsplit, urlunsplit
 
 import requests
+import os
+import json as _json
+import time
+try:
+    # optional: load .env if python-dotenv is installed in the environment
+    from dotenv import load_dotenv  # type: ignore[import-not-found]
+
+    # Load default .env if present, then try common project locations (server/.env)
+    load_dotenv()
+    # common additional locations relative to repo root
+    possible = [
+        os.path.join(os.getcwd(), '.env'),
+        os.path.join(os.getcwd(), '..', '.env'),
+        os.path.join(os.getcwd(), 'server', '.env'),
+        os.path.join(os.getcwd(), '..', 'server', '.env'),
+        os.path.join(os.getcwd(), '..', '..', 'server', '.env'),
+    ]
+    for p in possible:
+        try:
+            if os.path.exists(p):
+                load_dotenv(p, override=False)
+        except Exception:
+            continue
+except Exception:
+    pass
+
+# Startup: detect NIM endpoint env vars (mask value) and print if present
+def _mask_val(v: str) -> str:
+    if not v:
+        return ""
+    v = str(v)
+    if len(v) <= 12:
+        return v[:4] + "..."
+    return v[:6] + "..." + v[-4:]
+
+_nim_candidates = [
+    ("NIM_API_URL", os.environ.get("NIM_API_URL")),
+    ("NVIDIA_NIM_API", os.environ.get("NVIDIA_NIM_API")),
+    ("NVIDIA_NIM_URL", os.environ.get("NVIDIA_NIM_URL")),
+    ("NVIDEA_NIM_API", os.environ.get("NVIDEA_NIM_API")),
+]
+for name, val in _nim_candidates:
+    if val:
+        try:
+            masked = _mask_val(val)
+            print(f"[NIM] nvidea base url detected: {masked}")
+            print("[NIM] nvidea nim api found use this env /home/aarush/Myoffice/CodeLab Projects/SDG/server/.env")
+        except Exception:
+            pass
+        break
+
+# Rate limiting: limit to 40 requests per 60s window, then pause 60s
+_nim_request_count = 0
+_nim_window_start = 0.0
 
 HACK2SKILL_API_URL = (
     "https://vision.hack2skill.com/api/v1/innovator/public/event/public-list"
@@ -689,22 +744,411 @@ def scrape():
         try:
             items = source_callable()
             return items if isinstance(items, list) else []
-        except Exception:
+        except Exception as exc:
+            print(f"[SCRAPER][ERROR] Source failed: {exc}")
             return []
 
+    sources = [
+        (_scrape_hack2skill, "hack2skill"),
+        (_scrape_devpost, "devpost"),
+        (_scrape_unstop, "unstop"),
+        (_scrape_devfolio, "devfolio"),
+        (_scrape_hackerearth, "hackerearth"),
+        (_scrape_dorahacks, "dorahacks"),
+        (_scrape_mlh, "mlh"),
+    ]
+
     combined = []
-    combined.extend(_safe_collect(_scrape_hack2skill))
-    combined.extend(_safe_collect(_scrape_devpost))
-    combined.extend(_safe_collect(_scrape_unstop))
-    combined.extend(_safe_collect(_scrape_devfolio))
-    combined.extend(_safe_collect(_scrape_hackerearth))
-    combined.extend(_safe_collect(_scrape_dorahacks))
-    combined.extend(_safe_collect(_scrape_mlh))
+    total_sources = len(sources)
+    start_all = time.time()
+    print(f"[SCRAPER] Starting full scrape ({total_sources} sources)")
+
+    for idx, (fn, name) in enumerate(sources):
+        print(f"[SCRAPER] Starting source {idx+1}/{total_sources}: {name}")
+        t0 = time.time()
+        items = _safe_collect(fn)
+        elapsed = time.time() - t0
+        print(f"[SCRAPER] Finished source {name}: {len(items)} items (took {elapsed:.2f}s)")
+        combined.extend(items)
+        print(f"[SCRAPER] Cumulative items after {name}: {len(combined)}")
 
     filtered = [item for item in _dedupe(combined) if _is_not_expired(item)]
+    total_elapsed = time.time() - start_all
+    print(f"[SCRAPER] Completed full scrape. Collected {len(filtered)} items after dedupe/filter in {total_elapsed:.2f}s")
     return json.dumps(filtered, sort_keys=True, indent=2)
 
 
 def jsondump():
-    with open("hackathons.JSON", "w", encoding="utf-8") as f:
-        f.write(scrape())
+    raw = scrape()
+    try:
+        items = _json.loads(raw)
+    except Exception:
+        items = []
+
+    # Write atomically: write to temp file then replace
+    final_path = os.path.join(os.getcwd(), "hackathons.JSON")
+    tmp_path = final_path + ".tmp"
+    try:
+        with open(tmp_path, "w", encoding="utf-8") as f:
+            f.write(raw)
+            f.flush()
+            try:
+                os.fsync(f.fileno())
+            except Exception:
+                pass
+        # Atomic replace
+        os.replace(tmp_path, final_path)
+        print(f"[RAW] Atomically wrote {final_path} with {len(items)} items")
+    except Exception as exc:
+        # Cleanup tmp if present
+        try:
+            if os.path.exists(tmp_path):
+                os.remove(tmp_path)
+        except Exception:
+            pass
+        print(f"[RAW][ERROR] Failed to write {final_path}: {exc}")
+
+
+def _build_nim_prompt(item: dict) -> str:
+    title = item.get("name") or "Untitled"
+    start = (item.get("date") or {}).get("start") or "TBD"
+    end = (item.get("date") or {}).get("end") or "TBD"
+    location = item.get("location") or "unspecified"
+    source = item.get("source") or "unknown"
+    link = item.get("link") or ""
+    desc = item.get("desc") or ""
+
+    prompt = (
+        f"Write a concise (one-sentence, 15-25 words) marketing-style description for this hackathon:\n"
+        f"Title: {title}\n"
+        f"Dates: {start} to {end}\n"
+        f"Location: {location}\n"
+        f"Source: {source}\n"
+        f"Link: {link}\n"
+        f"Additional info: {desc}\n"
+        f"Keep it short and useful for a listing feed." 
+    )
+    return prompt
+
+
+def _call_nim(prompt: str, timeout=30) -> str:
+    """Call a configurable NVIDIA NIM-like HTTP inference endpoint.
+
+    Environment variables:
+    - NIM_API_URL (required): full URL to POST to
+    - NIM_API_KEY (optional): Bearer token for Authorization header
+
+    The function posts JSON {"prompt": prompt} and expects a JSON
+    response with a top-level `output` or `text` field containing the
+    generated summary. Fallbacks to raw response text on failure.
+    """
+    # Try loading server/.env directly (robust fallback if python-dotenv isn't available)
+    def _try_load_env_file(path):
+        try:
+            if os.path.exists(path):
+                with open(path, "r", encoding="utf-8") as ef:
+                    for line in ef:
+                        line = line.strip()
+                        if not line or line.startswith("#"):
+                            continue
+                        if "=" not in line:
+                            continue
+                        k, v = line.split("=", 1)
+                        k = k.strip()
+                        v = v.strip().strip("\"\'")
+                        if k and v and not os.environ.get(k):
+                            os.environ[k] = v
+        except Exception:
+            pass
+
+    _try_load_env_file(os.path.join(os.getcwd(), "server", ".env"))
+    _try_load_env_file(os.path.join(os.getcwd(), "..", "server", ".env"))
+
+    # Accept multiple environment var names (project may use NVIDIA_* names)
+    url = (
+        os.environ.get("NIM_API_URL")
+        or os.environ.get("NVIDIA_NIM_URL")
+        or os.environ.get("NIM_URL")
+    )
+    if not url:
+        # Try loading likely project .env locations once more (useful if running from repo subfolder)
+        try:
+            from dotenv import load_dotenv  # type: ignore[import-not-found]
+            extra = [
+                os.path.join(os.getcwd(), 'server', '.env'),
+                os.path.join(os.getcwd(), '..', 'server', '.env'),
+                os.path.join(os.getcwd(), '..', '..', 'server', '.env'),
+            ]
+            for p in extra:
+                if os.path.exists(p):
+                    load_dotenv(p, override=False)
+        except Exception:
+            pass
+
+        # re-check environment after attempting to load .env
+        url = (
+            os.environ.get("NIM_API_URL")
+            or os.environ.get("NVIDIA_NIM_API")
+            or os.environ.get("NVIDIA_NIM_URL")
+            or os.environ.get("NVIDEA_NIM_API")
+        )
+
+    if not url:
+        # Make error informative about which names were checked and whether any were present
+        checked = ["NIM_API_URL", "NVIDIA_NIM_API", "NVIDIA_NIM_URL", "NVIDEA_NIM_API"]
+        present = []
+        for name in checked:
+            val = os.environ.get(name)
+            if val:
+                # mask value
+                present.append(f"{name}=SET({val[:6]}...{val[-4:]})")
+            else:
+                present.append(f"{name}=MISSING")
+
+        # Also indicate whether a server/.env file exists nearby
+        candidates = [
+            os.path.join(os.getcwd(), 'server', '.env'),
+            os.path.join(os.getcwd(), '..', 'server', '.env'),
+        ]
+        env_files = [p for p in candidates if os.path.exists(p)]
+        msg = (
+            "NIM API URL not found. Checked env names: " + ", ".join(present)
+            + ("; loaded .env files: " + ",".join(env_files) if env_files else "; no server/.env found")
+        )
+        raise RuntimeError(msg)
+
+    headers = {"Content-Type": "application/json"}
+    api_key = (
+        os.environ.get("NIM_API_KEY")
+        or os.environ.get("NVIDIA_NIM_KEY")
+        or os.environ.get("NVIDIA_NIM_API")
+        or os.environ.get("NVIDIA_NIM_API_KEY")
+    )
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+
+    # Use NVIDIA integrate chat-style payload (similar to your Node example)
+    model = os.environ.get("NIM_MODEL") or os.environ.get("NVIDIA_NIM_MODEL") or "meta/llama-3.1-8b-instruct"
+    chat_payload = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": int(os.environ.get("NIM_MAX_TOKENS", 256)),
+        "temperature": float(os.environ.get("NIM_TEMPERATURE", 0.2)),
+        "top_p": float(os.environ.get("NIM_TOP_P", 0.7)),
+        "frequency_penalty": float(os.environ.get("NIM_FREQUENCY_PENALTY", 0.0)),
+        "presence_penalty": float(os.environ.get("NIM_PRESENCE_PENALTY", 0.0)),
+        "stream": False,
+    }
+
+    try:
+        # Log the URL and masked key for debugging
+        try:
+            print(f"[NIM] Calling URL: {url} with key: {_mask_val(api_key) if api_key else '<no-key>'} (model={model})")
+        except Exception:
+            pass
+        # Rate-limit: ensure we do not exceed 40 requests per 60s window
+        global _nim_request_count, _nim_window_start
+        now = time.time()
+        try:
+            if not _nim_window_start or (now - _nim_window_start) >= 60:
+                _nim_window_start = now
+                _nim_request_count = 0
+            if _nim_request_count >= 40:
+                wait = 60 - (now - _nim_window_start)
+                if wait > 0:
+                    print(f"[NIM][RATE-LIMIT] Reached 40 requests in current minute; sleeping {int(wait)}s")
+                    time.sleep(wait)
+                _nim_window_start = time.time()
+                _nim_request_count = 0
+        except Exception:
+            # if rate-limit bookkeeping fails, continue without blocking
+            pass
+
+        # increment counter for this outgoing request
+        try:
+            _nim_request_count += 1
+        except Exception:
+            pass
+
+        resp = requests.post(url, headers=headers, json=chat_payload, timeout=timeout)
+        resp.raise_for_status()
+    except Exception as exc:
+        return f"[nim-call-failed] {str(exc)}"
+
+    try:
+        data = resp.json()
+    except Exception:
+        return resp.text.strip()
+
+    # Common possible fields
+    # Chat-style response: choices[0].message.content (preferred)
+    try:
+        choices = data.get("choices")
+        if isinstance(choices, list) and len(choices) > 0:
+            first_choice = choices[0]
+            if isinstance(first_choice, dict):
+                # nested message.content
+                msg = first_choice.get("message") or first_choice.get("delta")
+                if isinstance(msg, dict):
+                    content = msg.get("content") or msg.get("text")
+                    if isinstance(content, str) and content.strip():
+                        return content.strip()
+                # older-style: text field on the choice
+                if isinstance(first_choice.get("text"), str) and first_choice.get("text").strip():
+                    return first_choice.get("text").strip()
+    except Exception:
+        pass
+
+    for key in ("output", "text", "result", "generated_text", "message"):
+        if isinstance(data.get(key), str):
+            return data.get(key).strip()
+
+    # If `outputs` is a list of objects
+    outputs = data.get("outputs") or data.get("choices") or None
+    if isinstance(outputs, list) and len(outputs) > 0:
+        first = outputs[0]
+        if isinstance(first, dict):
+            # check nested message.content if present
+            msg = first.get("message") or first.get("delta")
+            if isinstance(msg, dict):
+                content = msg.get("content") or msg.get("text")
+                if isinstance(content, str) and content.strip():
+                    return content.strip()
+            for key in ("text", "output", "generated_text"):
+                if isinstance(first.get(key), str):
+                    return first.get(key).strip()
+        if isinstance(first, str):
+            return first.strip()
+
+    # Fallback to stringified JSON
+    return _json.dumps(data)
+
+
+def summarize_with_nim(raw_json: str, limit: Optional[int] = None, delay: float = 0.2):
+    """Parse scraped JSON and ask NIM for short descriptions for each item.
+
+    Returns a list of dicts: {"name","link","nim_summary"}.
+    """
+    try:
+        items = _json.loads(raw_json)
+    except Exception:
+        return []
+
+    results = []
+    # If no explicit limit provided, summarize all items
+    if limit is None:
+        limit = len(items)
+    print(f"[NIM] Starting summarization for up to {min(limit, len(items))} items")
+    for idx, item in enumerate(items[:limit]):
+        name = item.get("name") or f"item-{idx}"
+        print(f"[RAW] Processing: {name}")
+        prompt = _build_nim_prompt(item)
+        try:
+            summary = _call_nim(prompt)
+        except Exception as exc:
+            summary = f"[error] {str(exc)}"
+
+        # Terminal log for each NIM result
+        # If NIM failed or returned non-text (e.g. raw JSON), fallback to the hackathon name
+        normalized = (summary or "").strip()
+        failed = False
+        if not normalized:
+            failed = True
+        if normalized.startswith("[nim-call-failed]") or normalized.startswith("[error]"):
+            failed = True
+        # many previous responses serialized the full JSON — treat leading '{' as a sign to parse
+        if not failed and (normalized.startswith("{") or normalized.startswith("[")):
+            try:
+                parsed = _json.loads(normalized)
+                # try to extract assistant text if possible
+                choices = parsed.get("choices")
+                if isinstance(choices, list) and len(choices) > 0:
+                    c0 = choices[0]
+                    if isinstance(c0, dict):
+                        msg = c0.get("message") or c0.get("delta")
+                        if isinstance(msg, dict):
+                            content = msg.get("content") or msg.get("text")
+                            if isinstance(content, str) and content.strip():
+                                normalized = content.strip()
+                            else:
+                                failed = True
+                        else:
+                            # fallback: use name
+                            failed = True
+                else:
+                    failed = True
+            except Exception:
+                failed = True
+
+        if failed:
+            normalized = name
+
+        print(f"[NIM] {name}: {normalized}")
+
+        results.append({
+            "name": name,
+            "link": item.get("link"),
+            "description": normalized,
+        })
+        # polite pacing
+        time.sleep(delay)
+
+    print(f"[NIM] Completed summarization for {len(results)} items")
+    return results
+
+
+if __name__ == "__main__":
+    # Default behaviour: run full scrape, write hackathons.JSON, then ALWAYS
+    # call the configured NIM endpoint to produce short descriptions.
+    import sys
+
+    out = scrape()
+    jsondump()
+
+    # Parse optional --limit N argument; default to None (summarize all)
+    limit = None
+    for i, arg in enumerate(sys.argv):
+        if arg == "--limit" and i + 1 < len(sys.argv):
+            try:
+                limit = int(sys.argv[i + 1])
+            except Exception:
+                pass
+
+    try:
+        summaries = summarize_with_nim(out, limit=limit)
+        print(_json.dumps(summaries, indent=2, ensure_ascii=False))
+
+        # Merge summaries into the scraped items and overwrite hackathons.JSON
+        try:
+            scraped_items = _json.loads(out)
+        except Exception:
+            scraped_items = []
+
+        # Build lookup by lowercased link or name
+        lookup = {}
+        for s in summaries:
+            key = (s.get("link") or s.get("name") or "").strip().lower()
+            if key:
+                lookup[key] = s.get("description")
+
+        for it in scraped_items:
+            k = ((it.get("link") or it.get("name") or "").strip().lower())
+            it["description"] = lookup.get(k, it.get("name"))
+
+        final_path = os.path.join(os.getcwd(), "hackathons.JSON")
+        tmp_path = final_path + ".tmp"
+        try:
+            with open(tmp_path, "w", encoding="utf-8") as f:
+                f.write(_json.dumps(scraped_items, indent=2, ensure_ascii=False))
+                f.flush()
+                try:
+                    os.fsync(f.fileno())
+                except Exception:
+                    pass
+            os.replace(tmp_path, final_path)
+            print(f"[RAW] Atomically updated {final_path} with descriptions for {len(scraped_items)} items")
+        except Exception as exc:
+            print(f"[RAW][ERROR] Failed to write enriched {final_path}: {exc}")
+
+    except Exception as exc:
+        print(f"NIM summarization failed: {exc}")
