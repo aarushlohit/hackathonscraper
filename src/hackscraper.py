@@ -73,6 +73,7 @@ HACKEREARTH_LISTING_URL = "https://www.hackerearth.com/challenges/hackathon/"
 DORAHACKS_LISTING_MIRROR_URL = "https://r.jina.ai/http://dorahacks.io/hackathon"
 DORAHACKS_DETAIL_MIRROR_PREFIX = "https://r.jina.ai/http://dorahacks.io/hackathon/"
 MLH_EVENTS_URL = "https://www.mlh.com/seasons/2026/events"
+CTF_EVENT_PATTERN = re.compile(r"\bctf\b", re.IGNORECASE)
 
 
 def _event_link_from_slug(event_url):
@@ -739,6 +740,18 @@ def _is_not_expired(item):
     return True
 
 
+def _is_not_ctf(item):
+    if not isinstance(item, dict):
+        return False
+
+    title = str(item.get("name") or "")
+    description = str(item.get("desc") or "")
+    link = str(item.get("link") or "")
+    source = str(item.get("source") or "")
+    haystack = f"{title} {description} {link} {source}"
+    return CTF_EVENT_PATTERN.search(haystack) is None
+
+
 def scrape():
     def _safe_collect(source_callable):
         try:
@@ -772,7 +785,7 @@ def scrape():
         combined.extend(items)
         print(f"[SCRAPER] Cumulative items after {name}: {len(combined)}")
 
-    filtered = [item for item in _dedupe(combined) if _is_not_expired(item)]
+    filtered = [item for item in _dedupe(combined) if _is_not_expired(item) and _is_not_ctf(item)]
     total_elapsed = time.time() - start_all
     print(f"[SCRAPER] Completed full scrape. Collected {len(filtered)} items after dedupe/filter in {total_elapsed:.2f}s")
     return json.dumps(filtered, sort_keys=True, indent=2)
