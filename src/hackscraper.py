@@ -752,6 +752,24 @@ def _is_not_ctf(item):
     return CTF_EVENT_PATTERN.search(haystack) is None
 
 
+def _is_not_grand_finale(item):
+    """Filter out completed/finished events marked as 'GRAND FINALE', 'FINALE', etc."""
+    if not isinstance(item, dict):
+        return True
+
+    title = str(item.get("name") or "").strip()
+    description = str(item.get("desc") or "").strip()
+    haystack = f"{title} {description}".lower()
+    
+    # Exclude completed event markers
+    finished_patterns = ["grand finale", " finale", "concluded", "completed", "finished", "ended"]
+    for pattern in finished_patterns:
+        if pattern in haystack:
+            return False
+    
+    return True
+
+
 def scrape():
     def _safe_collect(source_callable):
         try:
@@ -785,7 +803,7 @@ def scrape():
         combined.extend(items)
         print(f"[SCRAPER] Cumulative items after {name}: {len(combined)}")
 
-    filtered = [item for item in _dedupe(combined) if _is_not_expired(item) and _is_not_ctf(item)]
+    filtered = [item for item in _dedupe(combined) if _is_not_expired(item) and _is_not_ctf(item) and _is_not_grand_finale(item)]
     total_elapsed = time.time() - start_all
     print(f"[SCRAPER] Completed full scrape. Collected {len(filtered)} items after dedupe/filter in {total_elapsed:.2f}s")
     return json.dumps(filtered, sort_keys=True, indent=2)
