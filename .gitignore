@@ -1,4 +1,5 @@
 src/aaron_testing.py
 src/example
-src/_pycache__/*
+src/__pycache__/
+*.pyc
 *.JSON
